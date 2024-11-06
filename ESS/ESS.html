@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Source Heat Pump Models - ESS D17/D19</title>
+    <style>
+        /* Table container styling */
+        .table-container {
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Ensures borders do not double */
+            margin-top: 20px;
+        }
+        td {
+            border: 1px solid #ccc; /* Adds border to cells */
+            padding: 10px;
+            text-align: center;
+            background-color: white; /* Background color for header */
+        }
+        th {
+            border: 1px solid #ccc; /* Adds border to cells */
+            padding: 10px;
+            text-align: center;
+            background-color: #f4f4f4; /* Background color for header */
+            cursor: pointer; /* Change cursor to pointer for clickable headers */
+        }
+        .arrow {
+            margin-left: 5px;
+            font-size: 0.8em; /* Smaller font size for arrows */
+        }
+        .ascending::after {
+            content: ' ▲'; /* Up arrow for ascending sort */
+        }
+        .descending::after {
+            content: ' ▼'; /* Down arrow for descending sort */
+        }
+        /* Responsive styles */
+        @media (max-width: 767px) {
+            .table-container {
+                overflow-x: auto; /* Allow horizontal scroll */
+                white-space: nowrap; /* Prevent text wrapping */
+            }
+            th, td {
+                padding: 8px; /* Adjust padding for smaller screens */
+                font-size: 14px; /* Adjust font size if necessary */
+            }
+        }
+    </style>
+</head>
+<body>
+<p>Use this calculator to review the number of NSW Energy Saving Certificates (ESCs) eligible for approved products on the <a href="https://tessa.energysustainabilityschemes.nsw.gov.au/ipart?id=accepted_products" target="_blank">IPART TESSA Portal</a>.</p>
+
+<label><b>Postcode Lookup:</b></label>
+<input type="text" id="postcode" placeholder="Enter postcode" />
+<button id="lookup-button">Lookup</button>
+<div id="result"></div>
+
+<br>
+
+<p>Select the location (metropolitan or regional) to reflect the correct number of certificates for a given installation:</p>
+
+<div class="filter-container">
+    <label for="location"><b>Choose Location:</b></label>
+    <select id="location" name="location">
+        <option value="metropolitan">Metropolitan</option>
+        <option value="regional">Regional</option>
+    </select>
+</div>
+
+<br>
+
+<p>Filter by one or more brands or models:</p>
+<p><i>Hint: hold down Ctrl key to select multiple brands and/or models.</i></p>
+
+ <div class="filter-container"> 
+    <label for="brand-filter">Filter by Brand(s):</label>
+    <select id="brand-filter" multiple size="10">
+      <option value="all-brands" selected>All Brands</option>
+      <!-- Options will be populated dynamically -->
+    </select>
+  
+    <label for="model-filter">Filter by Model(s):</label>
+    <select id="model-filter" multiple size="10">
+      <option value="all-models" selected>All Models</option>
+      <!-- Options will be populated dynamically -->
+    </select>
+</div>
+  
+<style>
+    .filter-container {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* Adjust as needed */
+    }
+  
+    .filter-container label,
+    .filter-container select {
+      display: inline-block;
+    }
+</style>
+
+<br>
+<p>Click on any header to sort by alphabetical or numerical order.</p>
+
+<div class="table-container">
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0, this)">Brand<span class="arrow"></span></th>
+                <th onclick="sortTable(1, this)">Model<span class="arrow"></span></th>
+                <th onclick="sortTable(2, this)">Replace Elec (D17) Zone 3<span class="arrow"></span></th>
+                <th onclick="sortTable(3, this)">Replace Elec (D17) Zone 5<span class="arrow"></span></th>
+                <th onclick="sortTable(4, this)">Replace Gas (D19) Zone 3<span class="arrow"></span></th>
+                <th onclick="sortTable(5, this)">Replace Gas (D19) Zone 5<span class="arrow"></span></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+    let data_ESS = [];
+    let data_postcodes = [];
+    let currentSortColumn = -1; // Keep track of the currently sorted column
+    let currentSortDirection = 'descending'; // Keep track of the sorting direction
+    let calculatedValues = [];
+
+    // Declare constants and variables for different zones and parameters
+    const A_D17_Z3 = 35.14;
+    const a_D17_Z3 = 2.291;
+    const A_D17_Z5 = 38.49;
+    const a_D17_Z5 = 2.31;
+
+    const A_D19_Z3 = 0.58;
+    const a_D19_Z3 = 2.291;
+    const B_D19_Z3 = 47.337;
+    const A_D19_Z5 = 0.58;
+    const a_D19_Z5 = 2.31;
+    const B_D19_Z5 = 52.75;
+
+    const Life = 12;
+    const ECCF = 1.06;
+    const GCCF = 0.47;
+    
+    main();
+
+    async function main() {
+        try {
+            data_ESS = await fetchData('https://raw.githubusercontent.com/akjmcdowell/CertificateCalculator/refs/heads/main/ESS/ESS.json');
+            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/CertificateCalculator/refs/heads/main/VEU/Postcodes.json');
+
+            if (!Array.isArray(data_ESS)) throw new Error('data_ESS is not an array');
+
+            populateTable(data_ESS); // Populate the table initially
+            populateBrandFilter(data_ESS); // Populate the brand filter
+            populateModelFilter(data_ESS); // Populate the model filter
+        } catch (error) {
+            console.error('Error during initialization:', error);
+        }
+    }
+
+    async function fetchData(URL) {
+        const response = await fetch(URL);
+        if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
+        return await response.json();
+    }
+
+    function updateESSParameters() {
+        const location = document.getElementById("location").value;
+
+        // Regional network factor (RNF)
+        switch (location) {
+            case "metropolitan":
+                RNF = 1.0;
+                break;
+            case "regional":
+                RNF = 1.03;
+                break;
+        }
+    }
+
+    function populateTable(data) {
+    const tableBody = document.getElementById('data-table').getElementsByTagName('tbody')[0];
+    tableBody.innerHTML = ''; // Clear existing data
+    updateESSParameters(); // Ensure that parameters are updated before calculating values
+
+    data.forEach(item => {
+        const row = document.createElement('tr');
+
+        // Extract and parse values from the item object
+        let Bs_Z3 = parseFloat(item["Zone 3 Bs"]) || 0; // Parse as float, default to 0 if NaN
+        let Bs_Z5 = parseFloat(item["Zone 5 Bs"]) || 0;
+        let Be_Z3 = parseFloat(item["Zone 3 Be"]) || 0;
+        let Be_Z5 = parseFloat(item["Zone 5 Be"]) || 0;
+
+        // Create individual cells for brand, model, and ESC values
+        let brandCell = document.createElement('td');
+        brandCell.textContent = item.Brand;
+
+        let modelCell = document.createElement('td');
+        modelCell.textContent = item.Model;
+
+        let ESC_D17_Z3 = document.createElement('td');
+        let ESC_D17_Z5 = document.createElement('td');
+        let ESC_D19_Z3 = document.createElement('td');
+        let ESC_D19_Z5 = document.createElement('td');
+
+        // Calculate ESC values for Zone 3 and Zone 5
+        ESC_D17_Z3.textContent = Bs_Z3 > 0 ? Math.floor((A_D17_Z3 - a_D17_Z3 * (Bs_Z3 + Be_Z3)) * ECCF * RNF) : 0;
+        ESC_D19_Z3.textContent = Bs_Z3 > 0 ? Math.floor((A_D19_Z3 - a_D19_Z3 * (Bs_Z3 + Be_Z3)) * ECCF * RNF + B_D19_Z3 * GCCF) : 0;
+
+        ESC_D17_Z5.textContent = Bs_Z5 > 0 ? Math.floor((A_D17_Z5 - a_D17_Z5 * (Bs_Z5 + Be_Z5)) * ECCF * RNF) : 0;
+        ESC_D19_Z5.textContent = Bs_Z5 > 0 ? Math.floor((A_D19_Z5 - a_D19_Z5 * (Bs_Z5 + Be_Z5)) * ECCF * RNF + B_D19_Z5 * GCCF) : 0;
+
+        // Append cells to the row
+        row.appendChild(brandCell);
+        row.appendChild(modelCell);
+        row.appendChild(ESC_D17_Z3);
+        row.appendChild(ESC_D17_Z5);
+        row.appendChild(ESC_D19_Z3);
+        row.appendChild(ESC_D19_Z5);
+
+        // Append the row to the table body
+        tableBody.appendChild(row);
+
+        // Log Bs and Be values for debugging
+        console.log(Bs_Z3 + Be_Z3);
+    });
+}
+
+
+    function populateBrandFilter(data) {
+    const brandFilter = document.getElementById('brand-filter');
+    brandFilter.innerHTML = ''; // Clear existing brands
+
+    // Add the default "All Brands" option
+    const allBrandsOption = document.createElement('option');
+    allBrandsOption.value = 'all-brands';
+    allBrandsOption.textContent = 'All Brands';
+    brandFilter.appendChild(allBrandsOption);
+
+    const uniqueBrands = [...new Set(data.map(item => item.Brand))].sort();
+
+    uniqueBrands.forEach(brand => {
+        const option = document.createElement('option');
+        option.value = brand;
+        option.textContent = brand;
+        brandFilter.appendChild(option);
+    });
+}
+
+function populateModelFilter(data, selectedBrands = []) {
+    const modelFilter = document.getElementById('model-filter');
+    modelFilter.innerHTML = ''; // Clear existing models
+
+    // Add the default "All Models" option
+    const allModelsOption = document.createElement('option');
+    allModelsOption.value = 'all-models';
+    allModelsOption.textContent = 'All Models';
+    modelFilter.appendChild(allModelsOption);
+
+    const filteredModels = selectedBrands.includes('all-brands') 
+        ? data.map(item => item.Model) // Show all models if "All Brands" is selected
+        : data.filter(item => selectedBrands.includes(item.Brand)).map(item => item.Model);
+
+    const uniqueModels = [...new Set(filteredModels)].sort();
+
+    uniqueModels.forEach(model => {
+        const option = document.createElement('option');
+        option.value = model;
+        option.textContent = model;
+        modelFilter.appendChild(option);
+    });
+}
+
+
+function updateTableForSelectedBrandsModels() {
+    const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
+    const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
+
+    let filteredData;
+
+    if (selectedBrands.includes('all-brands') && selectedModels.includes('all-models')) {
+        // Show all data if both "All Brands" and "All Models" are selected
+        filteredData = data_ESS;
+    } else if (selectedBrands.includes('all-brands')) {
+        // If "All Brands" is selected, show all models for selected models
+        filteredData = data_ESS.filter(item => selectedModels.includes(item.Model));
+    } else if (selectedModels.includes('all-models')) {
+        // If "All Models" is selected, show all models for selected brands
+        filteredData = data_ESS.filter(item => selectedBrands.includes(item.Brand));
+    } else {
+        // Filter by both selected brands and models
+        filteredData = data_ESS.filter(item =>
+            selectedBrands.includes(item.Brand) && selectedModels.includes(item.Model)
+        );
+    }
+
+    populateTable(filteredData); // Update the table with filtered data
+}
+
+
+        // Example of populating filters and updating table on selection change
+    document.getElementById('brand-filter').addEventListener('change', function() {
+        const selectedBrands = Array.from(this.selectedOptions).map(option => option.value);
+        populateModelFilter(data_ESS, selectedBrands);
+
+        // Automatically select "All Models" when a brand is selected
+        const modelFilter = document.getElementById('model-filter');
+        modelFilter.value = 'all-models'; // Set to "All Models"
+
+        updateTableForSelectedBrandsModels();
+    });
+
+    document.getElementById('model-filter').addEventListener('change', updateTableForSelectedBrandsModels);
+
+
+
+function sortTable(columnIndex, th) {
+    const table = document.getElementById('data-table');
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.rows);
+
+    // Determine sort direction
+    let sortDirection = 'descending'; // Default direction
+    if (currentSortColumn === columnIndex) {
+        sortDirection = currentSortDirection === 'descending' ? 'ascending' : 'descending';
+    }
+
+    // Sort rows based on the selected column
+    rows.sort((rowA, rowB) => {
+        const cellA = rowA.cells[columnIndex].innerText.trim();
+        const cellB = rowB.cells[columnIndex].innerText.trim();
+
+        const a = isNaN(cellA) ? cellA : parseFloat(cellA);
+        const b = isNaN(cellB) ? cellB : parseFloat(cellB);
+
+        // Compare based on sort direction
+        if (sortDirection === 'ascending') {
+            return a > b ? 1 : a < b ? -1 : 0;
+        } else {
+            return a < b ? 1 : a > b ? -1 : 0;
+        }
+    });
+
+    // Clear existing rows and append sorted rows
+    while (tbody.firstChild) {
+        tbody.removeChild(tbody.firstChild);
+    }
+    rows.forEach(row => tbody.appendChild(row));
+
+    // Update sorting indicators (e.g., arrows or visual indicators)
+    resetSortingIndicators();
+    th.classList.add(sortDirection); // Add appropriate class for direction (ascending/descending)
+    
+    // Update global tracking for current sort state
+    currentSortColumn = columnIndex;
+    currentSortDirection = sortDirection;
+}
+
+function resetSortingIndicators() {
+    const thElements = document.querySelectorAll('#data-table th');
+    thElements.forEach(th => {
+        th.classList.remove('ascending', 'descending'); // Remove all sorting classes
+    });
+}
+
+
+    function lookupPostcode() {
+        const postcodeInput = document.getElementById('postcode').value.trim();
+        const resultDiv = document.getElementById('result');
+
+        // Find the postcode in the data
+        const postcodeInfo = data_postcodes.find(item => item.Postcode === postcodeInput);
+
+        if (postcodeInfo) {
+            // Display the results
+            resultDiv.innerHTML = `
+                <strong>State:</strong> ${postcodeInfo.State} <br>
+                <strong>Location:</strong> ${postcodeInfo.Location} <br>
+                <strong>ESS Zone:</strong> ${postcodeInfo.Zone_ESS} <br>
+            `;
+
+            // Change the location dropdown selection based on the postcode
+            const locationDropdown = document.getElementById('location');
+            locationDropdown.value = postcodeInfo.Location.toLowerCase(); // Convert to lowercase to match dropdown values
+
+            // Trigger change event to update the ESS parameters and table
+            locationDropdown.dispatchEvent(new Event('change'));
+        } else {
+            // Display error message
+            resultDiv.innerHTML = `<strong>No data found for postcode:</strong> ${postcodeInput}`;
+        }
+
+            const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
+            const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
+
+                // Default to "all-brands" and "all-models" if none selected
+            if (selectedBrands.length === 0) {
+                selectedBrands.push('all-brands');
+            }
+            if (selectedModels.length === 0) {
+        selectedModels.push('all-models');
+    }
+
+               // Filter the data based on current selections
+    const filteredData = (selectedBrands.includes('all-brands') && selectedModels.includes('all-models'))
+        ? data_ESS
+        : data_ESS.filter(item =>
+            (selectedBrands.includes('all-brands') || selectedBrands.includes(item.Brand)) &&
+            (selectedModels.includes('all-models') || selectedModels.includes(item.Model))
+        );
+
+    populateTable(filteredData); // Update table with filtered data
+
+    }
+
+    // Add event listener for button click
+    document.getElementById('lookup-button').addEventListener('click', lookupPostcode);
+
+    // Add event listener for Enter key press
+    document.getElementById('postcode').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            lookupPostcode();
+        }
+    });
+
+    // Event listeners for dropdown changes
+    document.getElementById('location').addEventListener('change', function() {
+        updateESSParameters(); // Update parameters on location change
+        const selectedBrand = document.getElementById('brand-filter').value;
+        const selectedModel = document.getElementById('model-filter').value;
+
+        const filteredData = (selectedBrand === 'all-brands' && selectedModel === 'all-models')
+            ? data_ESS
+            : data_ESS.filter(item => 
+                (selectedBrand === 'all-brands' || item.Brand === selectedBrand) && 
+                (selectedModel === 'all-models' || item.Model === selectedModel)
+            );
+
+        populateTable(filteredData); // Update table with filtered data
+    });
+
+</script>
+
+</body>
+</html>
