@@ -96,7 +96,7 @@
 
     <label for="zone"><b>Zone:</b></label>
     <select id="zone" name="zone">
-        <option value="zone-4">Zone 3</option>
+        <option value="zone-3">Zone 3</option>
         <option value="zone-5">Zone 5</option>
     </select>
 
@@ -163,8 +163,7 @@
 
     async function main() {
         try {
-            //data_ESS = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/ESS_IHEAB/IHEAB.json');
-            data_ESS = await fetchData('https://energyae2.sharepoint.com/Files/Internal%20Projects/Forms/AllItems.aspx?viewpath=%2FFiles%2FInternal%20Projects%2FForms%2FAllItems%2Easpx&id=%2FFiles%2FInternal%20Projects%2FWebsite%2FCertificateCalculator%2FESS%5FIHEAB%2FIHEAB%2Ejson&viewid=feb4992d%2Deefc%2D4dd4%2D8438%2Dd949d4591550&parent=%2FFiles%2FInternal%20Projects%2FWebsite%2FCertificateCalculator%2FESS%5FIHEAB');
+            data_ESS = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/ESS_IHEAB/IHEAB.json');
             data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/ESS_IHEAB/Postcodes.json');
 
             if (!Array.isArray(data_ESS)) throw new Error('data_ESS is not an array');
@@ -228,7 +227,7 @@
 
             HPElec_Z5 = item["Zone 5 HPelec (GJ\/year)"];
             HPGas_Z5 = item["Zone 5 HPgas (GJ\/year)"];
-            Savings_Z5 = item["Zone 5 Annual Energy Savings %"];
+            Savings_Z5 = item["Zone 5 Annual Energy Savings %\u00a0"];
             CPL_Z5 = item["Zone 5 Peak Load (MJ\/day)\u00a0"];
   
             Capacity = item["Total thermal capacity (kW)"];          
@@ -244,7 +243,7 @@
             brandCell.textContent = item.Brand;
 
             let modelCell = document.createElement('td');
-            modelCell.textContent = item.Model;
+            modelCell.textContent = item["Model Number"];
 
             let F16e_Z3 = document.createElement('td');
             let F16e_Z5 = document.createElement('td');
@@ -257,14 +256,22 @@
 
             // Calculate ESC values
             
-            F16e_Z3.textContent = Savings_Z3 >= 60 ? Math.floor(F16_elec(CPL,HPElec_Z3,HPGas_Z3,CapacityFactor)) : 0;
-            F16e_Z5.textContent = Savings_Z5 >= 60 ? Math.floor(F16_elec(CPL,HPElec_Z5,HPGas_Z5,CapacityFactor)) : 0;
+            F16e_Z3.textContent = Savings_Z3 >= 60 ? Math.floor(F16_elec(CPL_Z3,HPElec_Z3,HPGas_Z3,CapacityFactor)) : 0;
+            F16e_Z5.textContent = Savings_Z5 >= 60 ? Math.floor(F16_elec(CPL_Z5,HPElec_Z5,HPGas_Z5,CapacityFactor)) : 0;
 
-            F16g_Z3.textContent = Savings_Z3 >= 60 ? Math.floor(F16_gas(CPL,HPElec_Z3,HPGas_Z3,CapacityFactor)) : 0;
-            F16g_Z5.textContent = Savings_Z5 >= 60 ? Math.floor(F16_gas(CPL,HPElec_Z5,HPGas_Z5,CapacityFactor)) : 0;
+            F16g_Z3.textContent = Savings_Z3 >= 60 ? Math.floor(F16_gas(CPL_Z3,HPElec_Z3,HPGas_Z3,CapacityFactor)) : 0;
+            F16g_Z5.textContent = Savings_Z5 >= 60 ? Math.floor(F16_gas(CPL_Z5,HPElec_Z5,HPGas_Z5,CapacityFactor)) : 0;
 
-            F17_Z3.textContent = Savings_Z3 >= 60 ? Math.floor(F17_new(CPL,HPElec_Z3,HPGas_Z3,CapacityFactor)) : 0;
-            F17_Z5.textContent = Savings_Z5 >= 60 ? Math.floor(F17_new(CPL,HPElec_Z5,HPGas_Z5,CapacityFactor)) : 0;
+            F17_Z3.textContent = Savings_Z3 >= 60 ? Math.floor(F17_new(CPL_Z3,HPElec_Z3,HPGas_Z3,CapacityFactor)) : 0;
+            F17_Z5.textContent = Savings_Z5 >= 60 ? Math.floor(F17_new(CPL_Z5,HPElec_Z5,HPGas_Z5,CapacityFactor)) : 0;
+
+            console.log(CPL_Z5);
+            console.log(HPElec_Z5);
+            console.log(HPGas_Z5);
+            console.log(CapacityFactor);
+            console.log(Savings_Z5);
+            console.log(F17_Z5);
+
 
             // Append cells to the row
             row.appendChild(brandCell);
@@ -293,7 +300,7 @@
         return ESC;
     }
 
-    function F16_elecCPL(HPElec,HPGas,CapacityFactor) {
+    function F16_elec(CPL,HPElec,HPGas,CapacityFactor) {
         RefElec = 365*0.905*1.05*CPL/1000;
         GasSavings = (-HPGas)*CapacityFactor*Lifetime/3.6;
         ElecSavings = (RefElec-HPElec)*CapacityFactor*Lifetime/3.6;
@@ -360,7 +367,7 @@ function updateTableForStorageSizeFilter() {
     // Filter the data by selected models and storage volume range
     let filteredData = data_ESS.filter(item => {
         // Check if the model is in the selected brands (if any) and storage volume is within the range
-        const Volume = item["Total System Tank Volume (L)"];
+        const Volume = item["Total system tank volume (L)\u00a0"];
         const isModelSelected = selectedBrands.length === 0 || selectedBrands.includes(item.Model);
         const isVolumeInRange = Volume >= minVolume && Volume <= maxVolume;
 

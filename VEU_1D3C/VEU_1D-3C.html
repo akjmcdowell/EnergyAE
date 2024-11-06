@@ -146,8 +146,8 @@
 
     async function main() {
         try {
-            data_VEU = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/VEU/VEU_1D3C.json');
-            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/VEU/Postcodes.json');
+            data_VEU = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/VEU_1D3C/VEU_1D3C.json');
+            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/VEU_1D3C/Postcodes.json');
 
             if (!Array.isArray(data_VEU)) throw new Error('data_VEU is not an array');
 

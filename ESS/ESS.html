@@ -63,8 +63,8 @@
 <p>Select the location (metropolitan or regional) to reflect the correct number of certificates for a given installation:</p>
 
 <div class="filter-container">
-    <label for="location"><b>Choose Location:</b></label>
-    <select id="location" name="location">
+    <label for="region"><b>Choose Location:</b></label>
+    <select id="region" name="region">
         <option value="metropolitan">Metropolitan</option>
         <option value="regional">Regional</option>
     </select>
@@ -129,6 +129,7 @@
     let currentSortColumn = -1; // Keep track of the currently sorted column
     let currentSortDirection = 'descending'; // Keep track of the sorting direction
     let calculatedValues = [];
+    let RNF = 1;
 
     // Declare constants and variables for different zones and parameters
     const A_D17_Z3 = 35.14;
@@ -147,12 +148,13 @@
     const ECCF = 1.06;
     const GCCF = 0.47;
     
+    
     main();
 
     async function main() {
         try {
             data_ESS = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/ESS/ESS.json');
-            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/VEU/Postcodes.json');
+            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/VEU_1D3C/Postcodes.json');
 
             if (!Array.isArray(data_ESS)) throw new Error('data_ESS is not an array');
 
@@ -171,204 +173,199 @@
     }
 
     function updateESSParameters() {
-        const location = document.getElementById("location").value;
-
+        const region = document.getElementById("region").value;
+        console.log(region)
         // Regional network factor (RNF)
-        switch (location) {
-            case "metropolitan":
-                RNF = 1.0;
-                break;
-            case "regional":
-                RNF = 1.03;
-                break;
-        }
+        RNF = region === "regional" ? 1.03 : 1.0; // Set RNF based on region
+        console.log(RNF)
     }
 
     function populateTable(data) {
-    const tableBody = document.getElementById('data-table').getElementsByTagName('tbody')[0];
-    tableBody.innerHTML = ''; // Clear existing data
-    updateESSParameters(); // Ensure that parameters are updated before calculating values
 
-    data.forEach(item => {
-        const row = document.createElement('tr');
+        console.log("populateTable called"); // Check if populateTable is called
 
-        // Extract and parse values from the item object
-        let Bs_Z3 = parseFloat(item["Zone 3 Bs"]) || 0; // Parse as float, default to 0 if NaN
-        let Bs_Z5 = parseFloat(item["Zone 5 Bs"]) || 0;
-        let Be_Z3 = parseFloat(item["Zone 3 Be"]) || 0;
-        let Be_Z5 = parseFloat(item["Zone 5 Be"]) || 0;
+        const tableBody = document.getElementById('data-table').getElementsByTagName('tbody')[0];
+        tableBody.innerHTML = ''; // Clear existing data
+        updateESSParameters(); // Ensure that parameters are updated before calculating values
+        console.log(RNF)
+        data.forEach(item => {
+            const row = document.createElement('tr');
+            console.log("Entered data for each"); // Check if populateTable is called
+            // Extract and parse values from the item object
+            let Bs_Z3 = parseFloat(item["Zone 3 Bs"]) || 0; // Parse as float, default to 0 if NaN
+            let Bs_Z5 = parseFloat(item["Zone 5 Bs"]) || 0;
+            let Be_Z3 = parseFloat(item["Zone 3 Be"]) || 0;
+            let Be_Z5 = parseFloat(item["Zone 5 Be"]) || 0;
 
-        // Create individual cells for brand, model, and ESC values
-        let brandCell = document.createElement('td');
-        brandCell.textContent = item.Brand;
+            // Create individual cells for brand, model, and ESC values
+            let brandCell = document.createElement('td');
+            brandCell.textContent = item.Brand;
 
-        let modelCell = document.createElement('td');
-        modelCell.textContent = item.Model;
+            let modelCell = document.createElement('td');
+            modelCell.textContent = item.Model;
 
-        let ESC_D17_Z3 = document.createElement('td');
-        let ESC_D17_Z5 = document.createElement('td');
-        let ESC_D19_Z3 = document.createElement('td');
-        let ESC_D19_Z5 = document.createElement('td');
+            let ESC_D17_Z3 = document.createElement('td');
+            let ESC_D17_Z5 = document.createElement('td');
+            let ESC_D19_Z3 = document.createElement('td');
+            let ESC_D19_Z5 = document.createElement('td');
 
-        // Calculate ESC values for Zone 3 and Zone 5
-        ESC_D17_Z3.textContent = Bs_Z3 > 0 ? Math.floor((A_D17_Z3 - a_D17_Z3 * (Bs_Z3 + Be_Z3)) * ECCF * RNF) : 0;
-        ESC_D19_Z3.textContent = Bs_Z3 > 0 ? Math.floor((A_D19_Z3 - a_D19_Z3 * (Bs_Z3 + Be_Z3)) * ECCF * RNF + B_D19_Z3 * GCCF) : 0;
+            // Calculate ESC values for Zone 3 and Zone 5
+            ESC_D17_Z3.textContent = Bs_Z3 > 0 ? Math.floor((A_D17_Z3 - a_D17_Z3 * (Bs_Z3 + Be_Z3)) * ECCF * RNF) : 0;
+            ESC_D19_Z3.textContent = Bs_Z3 > 0 ? Math.floor((A_D19_Z3 - a_D19_Z3 * (Bs_Z3 + Be_Z3)) * ECCF * RNF + B_D19_Z3 * GCCF) : 0;
 
-        ESC_D17_Z5.textContent = Bs_Z5 > 0 ? Math.floor((A_D17_Z5 - a_D17_Z5 * (Bs_Z5 + Be_Z5)) * ECCF * RNF) : 0;
-        ESC_D19_Z5.textContent = Bs_Z5 > 0 ? Math.floor((A_D19_Z5 - a_D19_Z5 * (Bs_Z5 + Be_Z5)) * ECCF * RNF + B_D19_Z5 * GCCF) : 0;
+            ESC_D17_Z5.textContent = Bs_Z5 > 0 ? Math.floor((A_D17_Z5 - a_D17_Z5 * (Bs_Z5 + Be_Z5)) * ECCF * RNF) : 0;
+            ESC_D19_Z5.textContent = Bs_Z5 > 0 ? Math.floor((A_D19_Z5 - a_D19_Z5 * (Bs_Z5 + Be_Z5)) * ECCF * RNF + B_D19_Z5 * GCCF) : 0;
 
-        // Append cells to the row
-        row.appendChild(brandCell);
-        row.appendChild(modelCell);
-        row.appendChild(ESC_D17_Z3);
-        row.appendChild(ESC_D17_Z5);
-        row.appendChild(ESC_D19_Z3);
-        row.appendChild(ESC_D19_Z5);
+            console.log(ESC_D17_Z3)
 
-        // Append the row to the table body
-        tableBody.appendChild(row);
+            // Append cells to the row
+            row.appendChild(brandCell);
+            row.appendChild(modelCell);
+            row.appendChild(ESC_D17_Z3);
+            row.appendChild(ESC_D17_Z5);
+            row.appendChild(ESC_D19_Z3);
+            row.appendChild(ESC_D19_Z5);
 
-        // Log Bs and Be values for debugging
-        console.log(Bs_Z3 + Be_Z3);
-    });
-}
-
-
-    function populateBrandFilter(data) {
-    const brandFilter = document.getElementById('brand-filter');
-    brandFilter.innerHTML = ''; // Clear existing brands
-
-    // Add the default "All Brands" option
-    const allBrandsOption = document.createElement('option');
-    allBrandsOption.value = 'all-brands';
-    allBrandsOption.textContent = 'All Brands';
-    brandFilter.appendChild(allBrandsOption);
-
-    const uniqueBrands = [...new Set(data.map(item => item.Brand))].sort();
-
-    uniqueBrands.forEach(brand => {
-        const option = document.createElement('option');
-        option.value = brand;
-        option.textContent = brand;
-        brandFilter.appendChild(option);
-    });
-}
-
-function populateModelFilter(data, selectedBrands = []) {
-    const modelFilter = document.getElementById('model-filter');
-    modelFilter.innerHTML = ''; // Clear existing models
-
-    // Add the default "All Models" option
-    const allModelsOption = document.createElement('option');
-    allModelsOption.value = 'all-models';
-    allModelsOption.textContent = 'All Models';
-    modelFilter.appendChild(allModelsOption);
-
-    const filteredModels = selectedBrands.includes('all-brands') 
-        ? data.map(item => item.Model) // Show all models if "All Brands" is selected
-        : data.filter(item => selectedBrands.includes(item.Brand)).map(item => item.Model);
-
-    const uniqueModels = [...new Set(filteredModels)].sort();
-
-    uniqueModels.forEach(model => {
-        const option = document.createElement('option');
-        option.value = model;
-        option.textContent = model;
-        modelFilter.appendChild(option);
-    });
-}
-
-
-function updateTableForSelectedBrandsModels() {
-    const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
-    const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
-
-    let filteredData;
-
-    if (selectedBrands.includes('all-brands') && selectedModels.includes('all-models')) {
-        // Show all data if both "All Brands" and "All Models" are selected
-        filteredData = data_ESS;
-    } else if (selectedBrands.includes('all-brands')) {
-        // If "All Brands" is selected, show all models for selected models
-        filteredData = data_ESS.filter(item => selectedModels.includes(item.Model));
-    } else if (selectedModels.includes('all-models')) {
-        // If "All Models" is selected, show all models for selected brands
-        filteredData = data_ESS.filter(item => selectedBrands.includes(item.Brand));
-    } else {
-        // Filter by both selected brands and models
-        filteredData = data_ESS.filter(item =>
-            selectedBrands.includes(item.Brand) && selectedModels.includes(item.Model)
-        );
+            // Append the row to the table body
+            tableBody.appendChild(row);
+        });
     }
 
-    populateTable(filteredData); // Update the table with filtered data
-}
+    function populateBrandFilter(data) {
+        const brandFilter = document.getElementById('brand-filter');
+        brandFilter.innerHTML = ''; // Clear existing brands
 
+        // Add the default "All Brands" option
+        const allBrandsOption = document.createElement('option');
+        allBrandsOption.value = 'all-brands';
+        allBrandsOption.textContent = 'All Brands';
+        brandFilter.appendChild(allBrandsOption);
 
-        // Example of populating filters and updating table on selection change
-    document.getElementById('brand-filter').addEventListener('change', function() {
-        const selectedBrands = Array.from(this.selectedOptions).map(option => option.value);
-        populateModelFilter(data_ESS, selectedBrands);
+        const uniqueBrands = [...new Set(data.map(item => item.Brand))].sort();
 
-        // Automatically select "All Models" when a brand is selected
+        uniqueBrands.forEach(brand => {
+            const option = document.createElement('option');
+            option.value = brand;
+            option.textContent = brand;
+            brandFilter.appendChild(option);
+        });
+    }
+
+    function populateModelFilter(data, selectedBrands = []) {
         const modelFilter = document.getElementById('model-filter');
-        modelFilter.value = 'all-models'; // Set to "All Models"
+        modelFilter.innerHTML = ''; // Clear existing models
 
-        updateTableForSelectedBrandsModels();
+        // Add the default "All Models" option
+        const allModelsOption = document.createElement('option');
+        allModelsOption.value = 'all-models';
+        allModelsOption.textContent = 'All Models';
+        modelFilter.appendChild(allModelsOption);
+
+        const filteredModels = selectedBrands.includes('all-brands') 
+            ? data.map(item => item.Model) // Show all models if "All Brands" is selected
+            : data.filter(item => selectedBrands.includes(item.Brand)).map(item => item.Model);
+
+        const uniqueModels = [...new Set(filteredModels)].sort();
+
+        uniqueModels.forEach(model => {
+            const option = document.createElement('option');
+            option.value = model;
+            option.textContent = model;
+            modelFilter.appendChild(option);
+        });
+    }
+
+
+    function updateTableForSelectedBrandsModels() {
+        const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
+        const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
+
+        let filteredData;
+
+        if (selectedBrands.includes('all-brands') && selectedModels.includes('all-models')) {
+            // Show all data if both "All Brands" and "All Models" are selected
+            filteredData = data_ESS;
+        } else if (selectedBrands.includes('all-brands')) {
+            // If "All Brands" is selected, show all models for selected models
+            filteredData = data_ESS.filter(item => selectedModels.includes(item.Model));
+        } else if (selectedModels.includes('all-models')) {
+            // If "All Models" is selected, show all models for selected brands
+            filteredData = data_ESS.filter(item => selectedBrands.includes(item.Brand));
+        } else {
+            // Filter by both selected brands and models
+            filteredData = data_ESS.filter(item =>
+                selectedBrands.includes(item.Brand) && selectedModels.includes(item.Model)
+            );
+        }
+
+        populateTable(filteredData); // Update the table with filtered data
+    }
+
+
+    // Example of populating filters and updating table on selection change
+    document.getElementById('brand-filter').addEventListener('change', function() {
+    const selectedBrands = Array.from(this.selectedOptions).map(option => option.value);
+    populateModelFilter(data_ESS, selectedBrands);
+
+    // Automatically select "All Models" when a brand is selected
+    const modelFilter = document.getElementById('model-filter');
+    modelFilter.value = 'all-models'; // Set to "All Models"
+
+    updateTableForSelectedBrandsModels();
     });
 
     document.getElementById('model-filter').addEventListener('change', updateTableForSelectedBrandsModels);
 
 
 
-function sortTable(columnIndex, th) {
-    const table = document.getElementById('data-table');
-    const tbody = table.querySelector('tbody');
-    const rows = Array.from(tbody.rows);
+    function sortTable(columnIndex, th) {
+        const table = document.getElementById('data-table');
+        const tbody = table.querySelector('tbody');
+        const rows = Array.from(tbody.rows);
 
-    // Determine sort direction
-    let sortDirection = 'descending'; // Default direction
-    if (currentSortColumn === columnIndex) {
-        sortDirection = currentSortDirection === 'descending' ? 'ascending' : 'descending';
-    }
-
-    // Sort rows based on the selected column
-    rows.sort((rowA, rowB) => {
-        const cellA = rowA.cells[columnIndex].innerText.trim();
-        const cellB = rowB.cells[columnIndex].innerText.trim();
-
-        const a = isNaN(cellA) ? cellA : parseFloat(cellA);
-        const b = isNaN(cellB) ? cellB : parseFloat(cellB);
-
-        // Compare based on sort direction
-        if (sortDirection === 'ascending') {
-            return a > b ? 1 : a < b ? -1 : 0;
-        } else {
-            return a < b ? 1 : a > b ? -1 : 0;
+        // Determine sort direction
+        let sortDirection = 'descending'; // Default direction
+        if (currentSortColumn === columnIndex) {
+            sortDirection = currentSortDirection === 'descending' ? 'ascending' : 'descending';
         }
-    });
 
-    // Clear existing rows and append sorted rows
-    while (tbody.firstChild) {
-        tbody.removeChild(tbody.firstChild);
+        // Sort rows based on the selected column
+        rows.sort((rowA, rowB) => {
+            const cellA = rowA.cells[columnIndex].innerText.trim();
+            const cellB = rowB.cells[columnIndex].innerText.trim();
+
+            const a = isNaN(cellA) ? cellA : parseFloat(cellA);
+            const b = isNaN(cellB) ? cellB : parseFloat(cellB);
+
+            // Compare based on sort direction
+            if (sortDirection === 'ascending') {
+                return a > b ? 1 : a < b ? -1 : 0;
+            } else {
+                return a < b ? 1 : a > b ? -1 : 0;
+            }
+        });
+
+        // Clear existing rows and append sorted rows
+        while (tbody.firstChild) {
+            tbody.removeChild(tbody.firstChild);
+        }
+        rows.forEach(row => tbody.appendChild(row));
+
+        // Update sorting indicators (e.g., arrows or visual indicators)
+        resetSortingIndicators();
+        th.classList.add(sortDirection); // Add appropriate class for direction (ascending/descending)
+        
+        // Update global tracking for current sort state
+        currentSortColumn = columnIndex;
+        currentSortDirection = sortDirection;
     }
-    rows.forEach(row => tbody.appendChild(row));
 
-    // Update sorting indicators (e.g., arrows or visual indicators)
-    resetSortingIndicators();
-    th.classList.add(sortDirection); // Add appropriate class for direction (ascending/descending)
-    
-    // Update global tracking for current sort state
-    currentSortColumn = columnIndex;
-    currentSortDirection = sortDirection;
-}
-
-function resetSortingIndicators() {
-    const thElements = document.querySelectorAll('#data-table th');
-    thElements.forEach(th => {
-        th.classList.remove('ascending', 'descending'); // Remove all sorting classes
-    });
-}
+    function resetSortingIndicators() {
+        const thElements = document.querySelectorAll('#data-table th');
+        thElements.forEach(th => {
+            th.classList.remove('ascending', 'descending'); // Remove all sorting classes
+        });
+    }
 
 
     function lookupPostcode() {
@@ -386,55 +383,51 @@ function resetSortingIndicators() {
                 <strong>ESS Zone:</strong> ${postcodeInfo.Zone_ESS} <br>
             `;
 
-            // Change the location dropdown selection based on the postcode
-            const locationDropdown = document.getElementById('location');
-            locationDropdown.value = postcodeInfo.Location.toLowerCase(); // Convert to lowercase to match dropdown values
+            // Change the region dropdown selection based on the postcode
+            const regionDropdown = document.getElementById('region');
+            regionDropdown.value = postcodeInfo.Location.toLowerCase(); // Convert to lowercase to match dropdown values
 
             // Trigger change event to update the ESS parameters and table
-            locationDropdown.dispatchEvent(new Event('change'));
+            regionDropdown.dispatchEvent(new Event('change'));
         } else {
             // Display error message
             resultDiv.innerHTML = `<strong>No data found for postcode:</strong> ${postcodeInput}`;
         }
 
-            const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
-            const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
+        const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
+        const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
 
-                // Default to "all-brands" and "all-models" if none selected
-            if (selectedBrands.length === 0) {
-                selectedBrands.push('all-brands');
-            }
-            if (selectedModels.length === 0) {
-        selectedModels.push('all-models');
-    }
+        // Default to "all-brands" and "all-models" if none selected
+        if (selectedBrands.length === 0) {
+            selectedBrands.push('all-brands');
+        }
+        if (selectedModels.length === 0) {
+            selectedModels.push('all-models');
+        }
 
-               // Filter the data based on current selections
-    const filteredData = (selectedBrands.includes('all-brands') && selectedModels.includes('all-models'))
-        ? data_ESS
-        : data_ESS.filter(item =>
-            (selectedBrands.includes('all-brands') || selectedBrands.includes(item.Brand)) &&
-            (selectedModels.includes('all-models') || selectedModels.includes(item.Model))
+        // Filter the data based on current selections
+        const filteredData = (selectedBrands.includes('all-brands') && selectedModels.includes('all-models'))
+            ? data_ESS
+            : data_ESS.filter(item =>
+                (selectedBrands.includes('all-brands') || selectedBrands.includes(item.Brand)) &&
+                (selectedModels.includes('all-models') || selectedModels.includes(item.Model))
         );
 
-    populateTable(filteredData); // Update table with filtered data
+        populateTable(filteredData); // Update table with filtered data
 
     }
 
-    // Add event listener for button click
-    document.getElementById('lookup-button').addEventListener('click', lookupPostcode);
+    function refreshCalculation() {
+        updateESSParameters(); // Update parameters on region change
+        selectedBrand=document.getElementById('brand-filter').value;
+        selectedModel=document.getElementById('brand-filter').value;
 
-    // Add event listener for Enter key press
-    document.getElementById('postcode').addEventListener('keydown', function(event) {
-        if (event.key === 'Enter') {
-            lookupPostcode();
-        }
-    });
+        document.getElementById('brand-filter').value = 'all-brands';
+        document.getElementById('model-filter').value = 'all-models';
 
-    // Event listeners for dropdown changes
-    document.getElementById('location').addEventListener('change', function() {
-        updateESSParameters(); // Update parameters on location change
-        const selectedBrand = document.getElementById('brand-filter').value;
-        const selectedModel = document.getElementById('model-filter').value;
+        // Reassign selectedBrand and selectedModel after resetting
+        selectedBrand = document.getElementById('brand-filter').value;
+        selectedModel = document.getElementById('model-filter').value;
 
         const filteredData = (selectedBrand === 'all-brands' && selectedModel === 'all-models')
             ? data_ESS
@@ -442,8 +435,19 @@ function resetSortingIndicators() {
                 (selectedBrand === 'all-brands' || item.Brand === selectedBrand) && 
                 (selectedModel === 'all-models' || item.Model === selectedModel)
             );
-
+            
         populateTable(filteredData); // Update table with filtered data
+    }
+
+    // Add event listener for button click
+    document.getElementById('lookup-button').addEventListener('click', lookupPostcode);
+    document.getElementById('region').addEventListener('change', refreshCalculation);
+
+    // Add event listener for Enter key press
+    document.getElementById('postcode').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            lookupPostcode();
+        }
     });
 
 </script>
