@@ -144,8 +144,8 @@
 
     async function main() {
         try {
-            data_CER = await fetchData('https://raw.githubusercontent.com/akjmcdowell/CertificateCalculator/refs/heads/main/CER/CER.json');
-            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/CertificateCalculator/refs/heads/main/CER/CER_POSTCODES.json');
+            data_CER = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/CER/CER.json');
+            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/CER/CER_POSTCODES.json');
 
             if (!Array.isArray(data_CER)) throw new Error('data_CER is not an array');
 

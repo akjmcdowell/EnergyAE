@@ -151,8 +151,8 @@
 
     async function main() {
         try {
-            data_ESS = await fetchData('https://raw.githubusercontent.com/akjmcdowell/CertificateCalculator/refs/heads/main/ESS/ESS.json');
-            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/CertificateCalculator/refs/heads/main/VEU/Postcodes.json');
+            data_ESS = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/ESS/ESS.json');
+            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/VEU/Postcodes.json');
 
             if (!Array.isArray(data_ESS)) throw new Error('data_ESS is not an array');
 

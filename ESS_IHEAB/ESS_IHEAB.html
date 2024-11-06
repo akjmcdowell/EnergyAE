@@ -163,9 +163,9 @@
 
     async function main() {
         try {
-            //data_ESS = await fetchData('https://raw.githubusercontent.com/akjmcdowell/CertificateCalculator2/refs/heads/main/ESS_IHEAB/IHEAB.json');
+            //data_ESS = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/ESS_IHEAB/IHEAB.json');
             data_ESS = await fetchData('https://energyae2.sharepoint.com/Files/Internal%20Projects/Forms/AllItems.aspx?viewpath=%2FFiles%2FInternal%20Projects%2FForms%2FAllItems%2Easpx&id=%2FFiles%2FInternal%20Projects%2FWebsite%2FCertificateCalculator%2FESS%5FIHEAB%2FIHEAB%2Ejson&viewid=feb4992d%2Deefc%2D4dd4%2D8438%2Dd949d4591550&parent=%2FFiles%2FInternal%20Projects%2FWebsite%2FCertificateCalculator%2FESS%5FIHEAB');
-            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/CertificateCalculator2/refs/heads/main/ESS_IHEAB/Postcodes.json');
+            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/ESS_IHEAB/Postcodes.json');
 
             if (!Array.isArray(data_ESS)) throw new Error('data_ESS is not an array');
 
