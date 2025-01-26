@@ -108,11 +108,29 @@
         "Zone 5":28.0
     },
     {
+        "Brand":"AKQUA",
+        "Model":"AK-200HPE1",
+        "Zone 1":25,
+        "Zone 2":24,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":31.0
+    },
+    {
+        "Brand":"AKQUA",
+        "Model":"AK-270HPE1",
+        "Zone 1":25,
+        "Zone 2":24,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":31.0
+    },
+    {
         "Brand":"AMBRION",
         "Model":"AMB-HP270",
         "Zone 1":26,
         "Zone 2":26,
-        "Zone 3":32,
+        "Zone 3":31,
         "Zone 4":34.0,
         "Zone 5":34.0
     },
@@ -405,6 +423,15 @@
         "Zone 5":32.0
     },
     {
+        "Brand":"Aura Climate",
+        "Model":"HWC270BX",
+        "Zone 1":25,
+        "Zone 2":24,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":31.0
+    },
+    {
         "Brand":"Bosch",
         "Model":"HP 270-1E 0 FOV\/S",
         "Zone 1":22,
@@ -664,6 +691,42 @@
         "Zone 3":28,
         "Zone 4":29.0,
         "Zone 5":29.0
+    },
+    {
+        "Brand":"DUX",
+        "Model":"300DHC25",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"DUX",
+        "Model":"300DHC25-H ",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"DUX",
+        "Model":"300DHC25P ",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"DUX",
+        "Model":"300DHC25P-H ",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":32.0
     },
     {
         "Brand":"DUX",
@@ -928,6 +991,51 @@
     },
     {
         "Brand":"Ecogenica",
+        "Model":"EG-260FREC-W",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":30.0
+    },
+    {
+        "Brand":"Ecogenica",
+        "Model":"EG-260FRE-W",
+        "Zone 1":27,
+        "Zone 2":25,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Ecogenica",
+        "Model":"EG-260RW",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Ecogenica",
+        "Model":"EG-260RW-4.8E",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Ecogenica",
+        "Model":"EG-260RW-4.8EC",
+        "Zone 1":24,
+        "Zone 2":24,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":30.0
+    },
+    {
+        "Brand":"Ecogenica",
         "Model":"EG-290FR",
         "Zone 1":28,
         "Zone 2":28,
@@ -997,6 +1105,24 @@
         "Zone 3":33,
         "Zone 4":36.0,
         "Zone 5":36.0
+    },
+    {
+        "Brand":"Ecogenica",
+        "Model":"EG-300RW",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Ecogenica",
+        "Model":"EG-300SW-2.0E",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
     },
     {
         "Brand":"Ecogenica",
@@ -1108,6 +1234,51 @@
     },
     {
         "Brand":"Econova",
+        "Model":"ECON-260FREC-W",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":30.0
+    },
+    {
+        "Brand":"Econova",
+        "Model":"ECON-260FRE-W",
+        "Zone 1":27,
+        "Zone 2":25,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Econova",
+        "Model":"ECON-260RW",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Econova",
+        "Model":"ECON-260RW-4.8E",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Econova",
+        "Model":"ECON-260RW-4.8EC",
+        "Zone 1":24,
+        "Zone 2":24,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":30.0
+    },
+    {
+        "Brand":"Econova",
         "Model":"ECON290",
         "Zone 1":28,
         "Zone 2":28,
@@ -1123,6 +1294,24 @@
         "Zone 3":30,
         "Zone 4":32.0,
         "Zone 5":31.0
+    },
+    {
+        "Brand":"Econova",
+        "Model":"ECON-300RW",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Econova",
+        "Model":"ECON-300SW-2.0E",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
     },
     {
         "Brand":"Econova",
@@ -1323,13 +1512,13 @@
         "Zone 5":25.0
     },
     {
-        "Brand":"Edson",
+        "Brand":"Edson Global",
         "Model":"EGS-AIO-300\/290-R",
-        "Zone 1":26,
-        "Zone 2":25,
-        "Zone 3":31,
-        "Zone 4":32.0,
-        "Zone 5":32.0
+        "Zone 1":27,
+        "Zone 2":26,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":33.0
     },
     {
         "Brand":"Efficiency Plus",
@@ -1927,6 +2116,15 @@
     },
     {
         "Brand":"Evo Heat",
+        "Model":"EVO270-E",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Evo Heat",
         "Model":"PASHW015-270LD",
         "Zone 1":23,
         "Zone 2":22,
@@ -2455,6 +2653,15 @@
         "Zone 3":31,
         "Zone 4":33.0,
         "Zone 5":32.0
+    },
+    {
+        "Brand":"iStore",
+        "Model":"PASHW008-180LD-NM-R290",
+        "Zone 1":24,
+        "Zone 2":23,
+        "Zone 3":28,
+        "Zone 4":29.0,
+        "Zone 5":28.0
     },
     {
         "Brand":"JIADELE",
@@ -3204,6 +3411,24 @@
         "Zone 5":31.0
     },
     {
+        "Brand":"Neopower",
+        "Model":"NA38-280A",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":34.0
+    },
+    {
+        "Brand":"Neopower",
+        "Model":"NA39-280B",
+        "Zone 1":25,
+        "Zone 2":23,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":31.0
+    },
+    {
         "Brand":"Oasis",
         "Model":"PASHW015-270LD",
         "Zone 1":22,
@@ -3247,6 +3472,24 @@
         "Zone 3":30,
         "Zone 4":31.0,
         "Zone 5":31.0
+    },
+    {
+        "Brand":"Onsen",
+        "Model":"ONHW280HIC",
+        "Zone 1":25,
+        "Zone 2":23,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":31.0
+    },
+    {
+        "Brand":"Onsen",
+        "Model":"ONHW280HPI",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":34.0
     },
     {
         "Brand":"Optitech",
@@ -3746,11 +3989,11 @@
     {
         "Brand":"Power Bay",
         "Model":"PBG2-300RE-HYBRID",
-        "Zone 1":26,
-        "Zone 2":25,
-        "Zone 3":30,
-        "Zone 4":32.0,
-        "Zone 5":32.0
+        "Zone 1":27,
+        "Zone 2":26,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":33.0
     },
     {
         "Brand":"POWERED BY NATURE",
@@ -4492,6 +4735,24 @@
     },
     {
         "Brand":"Rheem",
+        "Model":"565E315R0",
+        "Zone 1":24,
+        "Zone 2":22,
+        "Zone 3":29,
+        "Zone 4":30.0,
+        "Zone 5":29.0
+    },
+    {
+        "Brand":"Rheem",
+        "Model":"565E32AM0",
+        "Zone 1":24,
+        "Zone 2":22,
+        "Zone 3":29,
+        "Zone 4":30.0,
+        "Zone 5":29.0
+    },
+    {
+        "Brand":"Rheem",
         "Model":"571D270",
         "Zone 1":26,
         "Zone 2":25,
@@ -4582,6 +4843,15 @@
     },
     {
         "Brand":"Rinnai",
+        "Model":"EHPA300VMH",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Rinnai",
         "Model":"EHPA315VM",
         "Zone 1":23,
         "Zone 2":22,
@@ -4636,6 +4906,15 @@
     },
     {
         "Brand":"Rinnai",
+        "Model":"EHPA340VMH",
+        "Zone 1":26,
+        "Zone 2":24,
+        "Zone 3":30,
+        "Zone 4":33.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"Rinnai",
         "Model":"EHPG215VM",
         "Zone 1":26,
         "Zone 2":25,
@@ -4646,6 +4925,15 @@
     {
         "Brand":"Rinnai",
         "Model":"EHPG265VM",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Rinnai",
+        "Model":"EHPG265VMT",
         "Zone 1":26,
         "Zone 2":26,
         "Zone 3":31,
@@ -4870,6 +5158,15 @@
     },
     {
         "Brand":"Sanden",
+        "Model":"GAUS-250FQTD",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":31,
+        "Zone 4":34.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"Sanden",
         "Model":"GAUS-250FQTS",
         "Zone 1":26,
         "Zone 2":26,
@@ -5002,6 +5299,15 @@
         "Zone 3":32,
         "Zone 4":34.0,
         "Zone 5":32.0
+    },
+    {
+        "Brand":"Sanden",
+        "Model":"GAUS-315FQTD",
+        "Zone 1":26,
+        "Zone 2":27,
+        "Zone 3":31,
+        "Zone 4":34.0,
+        "Zone 5":34.0
     },
     {
         "Brand":"Sanden",
@@ -5634,6 +5940,15 @@
         "Zone 5":26.0
     },
     {
+        "Brand":"Solahart",
+        "Model":"32SHER05",
+        "Zone 1":24,
+        "Zone 2":22,
+        "Zone 3":29,
+        "Zone 4":30.0,
+        "Zone 5":29.0
+    },
+    {
         "Brand":"Solar Lord",
         "Model":"200GR-C3.8",
         "Zone 1":24,
@@ -5738,6 +6053,24 @@
         "Zone 1":25,
         "Zone 2":25,
         "Zone 3":30,
+        "Zone 4":31.0,
+        "Zone 5":31.0
+    },
+    {
+        "Brand":"SolarBuild",
+        "Model":"NA38-280A",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":34.0
+    },
+    {
+        "Brand":"SolarBuild",
+        "Model":"NA39-280B",
+        "Zone 1":25,
+        "Zone 2":23,
+        "Zone 3":29,
         "Zone 4":31.0,
         "Zone 5":31.0
     },
@@ -5895,6 +6228,78 @@
         "Zone 5":30.0
     },
     {
+        "Brand":"SUNTEK",
+        "Model":"EHPST265-C",
+        "Zone 1":23,
+        "Zone 2":19,
+        "Zone 3":27,
+        "Zone 4":28.0,
+        "Zone 5":27.0
+    },
+    {
+        "Brand":"SUNTEK",
+        "Model":"EHPST265-CE",
+        "Zone 1":23,
+        "Zone 2":19,
+        "Zone 3":27,
+        "Zone 4":28.0,
+        "Zone 5":27.0
+    },
+    {
+        "Brand":"SUNTEK",
+        "Model":"EHPST265-R",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"SUNTEK",
+        "Model":"EHPST265-RE",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"SUNTEK",
+        "Model":"EHPST315-C",
+        "Zone 1":24,
+        "Zone 2":21,
+        "Zone 3":27,
+        "Zone 4":29.0,
+        "Zone 5":28.0
+    },
+    {
+        "Brand":"SUNTEK",
+        "Model":"EHPST315-CE",
+        "Zone 1":24,
+        "Zone 2":21,
+        "Zone 3":27,
+        "Zone 4":29.0,
+        "Zone 5":28.0
+    },
+    {
+        "Brand":"SUNTEK",
+        "Model":"EHPST315-R",
+        "Zone 1":27,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
+        "Brand":"SUNTEK",
+        "Model":"EHPST315-RE",
+        "Zone 1":27,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":33.0
+    },
+    {
         "Brand":"TCL",
         "Model":"KZd35-R16SWE\/S-ST15-T",
         "Zone 1":24,
@@ -5915,11 +6320,11 @@
     {
         "Brand":"TCL",
         "Model":"KZd40-RS30WF-T3A",
-        "Zone 1":26,
-        "Zone 2":25,
-        "Zone 3":31,
-        "Zone 4":32.0,
-        "Zone 5":32.0
+        "Zone 1":27,
+        "Zone 2":26,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":33.0
     },
     {
         "Brand":"TCL",
@@ -6073,6 +6478,42 @@
         "Zone 3":28,
         "Zone 4":29.0,
         "Zone 5":29.0
+    },
+    {
+        "Brand":"Thermann",
+        "Model":"300THC25",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"Thermann",
+        "Model":"300THC25-H ",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"Thermann",
+        "Model":"300THC25P",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"Thermann",
+        "Model":"300THC25P-H ",
+        "Zone 1":25,
+        "Zone 2":22,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":32.0
     },
     {
         "Brand":"Thermann",
@@ -6237,6 +6678,42 @@
         "Zone 5":30.0
     },
     {
+        "Brand":"VANSTON",
+        "Model":"HP280EN5-V1",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":34.0
+    },
+    {
+        "Brand":"VANSTON",
+        "Model":"HP280EN5-V1C",
+        "Zone 1":25,
+        "Zone 2":23,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":31.0
+    },
+    {
+        "Brand":"Vanward",
+        "Model":"KR32\/280DN5W-S",
+        "Zone 1":26,
+        "Zone 2":26,
+        "Zone 3":32,
+        "Zone 4":34.0,
+        "Zone 5":34.0
+    },
+    {
+        "Brand":"Vanward",
+        "Model":"KR32\/280DN5W-SC",
+        "Zone 1":25,
+        "Zone 2":23,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":31.0
+    },
+    {
         "Brand":"Vanward",
         "Model":"KR35\/160DN4-A ",
         "Zone 1":24,
@@ -6282,12 +6759,57 @@
         "Zone 5":27.0
     },
     {
+        "Brand":"Viessmann",
+        "Model":"Vitocal 161-A 210 SO",
+        "Zone 1":25,
+        "Zone 2":24,
+        "Zone 3":29,
+        "Zone 4":31.0,
+        "Zone 5":31.0
+    },
+    {
+        "Brand":"Viessmann",
+        "Model":"Vitocal 161-A 270 SO",
+        "Zone 1":25,
+        "Zone 2":24,
+        "Zone 3":30,
+        "Zone 4":32.0,
+        "Zone 5":31.0
+    },
+    {
         "Brand":"Vulcan",
         "Model":651180,
         "Zone 1":25,
         "Zone 2":25,
         "Zone 3":30,
         "Zone 4":32.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"Wilson Heat Pumps",
+        "Model":"WHPS-160A",
+        "Zone 1":26,
+        "Zone 2":24,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"Wilson Heat Pumps",
+        "Model":"WHPS-250A",
+        "Zone 1":26,
+        "Zone 2":24,
+        "Zone 3":31,
+        "Zone 4":33.0,
+        "Zone 5":32.0
+    },
+    {
+        "Brand":"Wilson Heat Pumps",
+        "Model":"WHPS-315A",
+        "Zone 1":26,
+        "Zone 2":25,
+        "Zone 3":31,
+        "Zone 4":33.0,
         "Zone 5":32.0
     },
     {
@@ -6345,7 +6867,7 @@
         "Zone 5":29.0
     },
     {
-        "Brand":"ZILO\u00a0Energy",
+        "Brand":"ZILO Energy",
         "Model":"ZHW160L",
         "Zone 1":24,
         "Zone 2":22,
@@ -6354,7 +6876,7 @@
         "Zone 5":28.0
     },
     {
-        "Brand":"ZILO\u00a0Energy",
+        "Brand":"ZILO Energy",
         "Model":"ZHW260L",
         "Zone 1":24,
         "Zone 2":21,
