@@ -1,6 +1,39 @@
 [
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"aether Australia",
+        "Model":"aether HP270",
+        "Zone 4 Annual Energy Savings (%)":65.7,
+        "Zone 4 Peak Load (MJ\/day)":59.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":7.03,
+        "Zone 5 Annual Energy Savings (%)":61.1,
+        "Zone 5 Peak Load (MJ\/day)":48.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":6.47,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"aether HP270",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":278.0,
+        "Total System Tank Volume (L)":278.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"aether HP270",
+        "Total Heat Pump Thermal Capacity (kW)":3.2,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":5.0,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1869696000000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.4,
+        "Status":"Pending Assessment",
+        "Application Date":1731542400000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Apricus Australia",
         "Model":"APHP-R290-260",
         "Zone 4 Annual Energy Savings (%)":70.1,
@@ -33,7 +66,7 @@
         "Effective To":1773705600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Aquaheat Australia",
         "Model":"AQHP-R290-260",
         "Zone 4 Annual Energy Savings (%)":70.1,
@@ -66,7 +99,73 @@
         "Effective To":1773705600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"AquaPlus",
+        "Model":"APAIO200C",
+        "Zone 4 Annual Energy Savings (%)":64.2,
+        "Zone 4 Peak Load (MJ\/day)":52.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":6.46,
+        "Zone 5 Annual Energy Savings (%)":60.3,
+        "Zone 5 Peak Load (MJ\/day)":45.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":6.2,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"APAIO200C",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":204.0,
+        "Total System Tank Volume (L)":204.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"APAIO200C",
+        "Total Heat Pump Thermal Capacity (kW)":3.1,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":4.9,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1856649600000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.4,
+        "Status":"Pending Assessment",
+        "Application Date":1732579200000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"AquaPlus",
+        "Model":"APAIO270C",
+        "Zone 4 Annual Energy Savings (%)":65.7,
+        "Zone 4 Peak Load (MJ\/day)":59.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":7.02,
+        "Zone 5 Annual Energy Savings (%)":61.2,
+        "Zone 5 Peak Load (MJ\/day)":48.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":6.46,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"APAIO270C",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":278.0,
+        "Total System Tank Volume (L)":278.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"APAIO270C",
+        "Total Heat Pump Thermal Capacity (kW)":3.2,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":5.0,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1856649600000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.4,
+        "Status":"Pending Assessment",
+        "Application Date":1732579200000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Aquatech",
         "Model":"Dynamic\/X8",
         "Zone 4 Annual Energy Savings (%)":72.0,
@@ -93,13 +192,13 @@
         "AS\/NZS 2712 Certificate Expiry":1731283200000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.35,
-        "Status":"Approved",
+        "Status":"Legacy",
         "Application Date":null,
         "Effective From":1544400000000,
         "Effective To":1731283200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-1T1000-S",
         "Zone 4 Annual Energy Savings (%)":62.1,
@@ -132,7 +231,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-1T1000-S-2C",
         "Zone 4 Annual Energy Savings (%)":61.1,
@@ -165,7 +264,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-1T2000-S-2C",
         "Zone 4 Annual Energy Savings (%)":60.8,
@@ -198,7 +297,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-1T2000-S-2C-DRX",
         "Zone 4 Annual Energy Savings (%)":60.6,
@@ -231,7 +330,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-1T750-S",
         "Zone 4 Annual Energy Savings (%)":62.7,
@@ -264,7 +363,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T1000-P-2C-DRX",
         "Zone 4 Annual Energy Savings (%)":61.1,
@@ -297,7 +396,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T1000-S",
         "Zone 4 Annual Energy Savings (%)":62.6,
@@ -330,7 +429,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T1000-S-2C",
         "Zone 4 Annual Energy Savings (%)":60.1,
@@ -363,7 +462,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T1000-S-2C-DRX",
         "Zone 4 Annual Energy Savings (%)":61.2,
@@ -396,7 +495,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T2000-P-2C-DRX",
         "Zone 4 Annual Energy Savings (%)":60.6,
@@ -429,7 +528,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T2000-S",
         "Zone 4 Annual Energy Savings (%)":63.9,
@@ -462,7 +561,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T2000-S-2C",
         "Zone 4 Annual Energy Savings (%)":63.4,
@@ -495,7 +594,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T2000-S-2C-DRX",
         "Zone 4 Annual Energy Savings (%)":62.4,
@@ -528,7 +627,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T500-S",
         "Zone 4 Annual Energy Savings (%)":66.8,
@@ -561,7 +660,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-2T750-S",
         "Zone 4 Annual Energy Savings (%)":67.0,
@@ -594,7 +693,73 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Automatic Heating",
+        "Model":"Revere1CHP-80-3T1000-P-2C",
+        "Zone 4 Annual Energy Savings (%)":63.2,
+        "Zone 4 Peak Load (MJ\/day)":2088.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":266.56,
+        "Zone 5 Annual Energy Savings (%)":61.2,
+        "Zone 5 Peak Load (MJ\/day)":1993.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":268.22,
+        "Number Of Tanks":3,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"TSSI2C1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":1038.5,
+        "Total System Tank Volume (L)":3115.5,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"CHP-80Y2C",
+        "Total Heat Pump Thermal Capacity (kW)":56.2,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"10 kW",
+        "Total Thermal Capacity (kW)":56.2,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":11.3,
+        "Status":"Pending Assessment",
+        "Application Date":1733961600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Automatic Heating",
+        "Model":"Revere1CHP-80-3T750-P-2C",
+        "Zone 4 Annual Energy Savings (%)":63.2,
+        "Zone 4 Peak Load (MJ\/day)":2148.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":274.52,
+        "Zone 5 Annual Energy Savings (%)":61.0,
+        "Zone 5 Peak Load (MJ\/day)":2091.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":282.76,
+        "Number Of Tanks":3,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"TSSI2C750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":715.4,
+        "Total System Tank Volume (L)":2146.2,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"CHP-80Y2C",
+        "Total Heat Pump Thermal Capacity (kW)":56.2,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"10 kW",
+        "Total Thermal Capacity (kW)":66.2,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":11.3,
+        "Status":"Pending Assessment",
+        "Application Date":1733961600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere1CHP-80-4T500-S",
         "Zone 4 Annual Energy Savings (%)":66.4,
@@ -627,7 +792,73 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Automatic Heating",
+        "Model":"Revere1CHP-80-4T750-P-2C",
+        "Zone 4 Annual Energy Savings (%)":63.8,
+        "Zone 4 Peak Load (MJ\/day)":2255.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":283.48,
+        "Zone 5 Annual Energy Savings (%)":61.6,
+        "Zone 5 Peak Load (MJ\/day)":2110.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":280.69,
+        "Number Of Tanks":4,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"TSSI2C750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":715.4,
+        "Total System Tank Volume (L)":2861.6,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"CHP-80Y2C",
+        "Total Heat Pump Thermal Capacity (kW)":56.2,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"10 kW",
+        "Total Thermal Capacity (kW)":66.2,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":11.3,
+        "Status":"Pending Assessment",
+        "Application Date":1733961600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Automatic Heating",
+        "Model":"Revere2CHP-80-1T1000",
+        "Zone 4 Annual Energy Savings (%)":66.3,
+        "Zone 4 Peak Load (MJ\/day)":4014.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":469.5,
+        "Zone 5 Annual Energy Savings (%)":64.2,
+        "Zone 5 Peak Load (MJ\/day)":3960.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":491.66,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"TSSI1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":1137.1,
+        "Total System Tank Volume (L)":1137.1,
+        "Number of Heat Pumps":2,
+        "Heat Pump Model Number(s)":"CHP-80Y2C",
+        "Total Heat Pump Thermal Capacity (kW)":112.4,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"10 kW",
+        "Total Thermal Capacity (kW)":122.4,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":45.2,
+        "Status":"Pending Assessment",
+        "Application Date":1733961600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-2T1000-S",
         "Zone 4 Annual Energy Savings (%)":62.4,
@@ -660,7 +891,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-2T1000-S-2C",
         "Zone 4 Annual Energy Savings (%)":60.9,
@@ -693,7 +924,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-2T2000-P-2C-DRX",
         "Zone 4 Annual Energy Savings (%)":60.6,
@@ -726,7 +957,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-2T2000-S",
         "Zone 4 Annual Energy Savings (%)":63.4,
@@ -759,7 +990,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-2T2000-S-2C",
         "Zone 4 Annual Energy Savings (%)":60.1,
@@ -792,7 +1023,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-2T2000-S-2C-DRX",
         "Zone 4 Annual Energy Savings (%)":60.0,
@@ -825,7 +1056,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-2T4000-S",
         "Zone 4 Annual Energy Savings (%)":64.4,
@@ -858,7 +1089,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-4T1000-S",
         "Zone 4 Annual Energy Savings (%)":67.2,
@@ -891,7 +1122,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-4T1000-S-2C",
         "Zone 4 Annual Energy Savings (%)":60.1,
@@ -924,7 +1155,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-4T2000-P-2C-DRX",
         "Zone 4 Annual Energy Savings (%)":60.5,
@@ -957,7 +1188,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-4T2000-S",
         "Zone 4 Annual Energy Savings (%)":67.6,
@@ -990,7 +1221,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-4T2000-S-2C",
         "Zone 4 Annual Energy Savings (%)":63.4,
@@ -1023,7 +1254,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-4T500-S",
         "Zone 4 Annual Energy Savings (%)":67.0,
@@ -1056,7 +1287,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-6T2000-S-2C",
         "Zone 4 Annual Energy Savings (%)":64.1,
@@ -1089,7 +1320,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere2CHP-80-H-2T500-S",
         "Zone 4 Annual Energy Savings (%)":65.4,
@@ -1122,7 +1353,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Automatic Heating",
         "Model":"Revere3CHP-80-2T2000-S-2C",
         "Zone 4 Annual Energy Savings (%)":60.5,
@@ -1155,7 +1386,106 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Automatic Heating",
+        "Model":"Revere3CHP-80-3T1000-S-2C",
+        "Zone 4 Annual Energy Savings (%)":60.6,
+        "Zone 4 Peak Load (MJ\/day)":6241.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":851.99,
+        "Zone 5 Annual Energy Savings (%)":0.0,
+        "Zone 5 Peak Load (MJ\/day)":0.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":0.0,
+        "Number Of Tanks":3,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"TSSI2C1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":1038.5,
+        "Total System Tank Volume (L)":3115.5,
+        "Number of Heat Pumps":3,
+        "Heat Pump Model Number(s)":"CHP-80Y2C",
+        "Total Heat Pump Thermal Capacity (kW)":193.8,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"10 kW",
+        "Total Thermal Capacity (kW)":193.8,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":33.9,
+        "Status":"Pending Assessment",
+        "Application Date":1730937600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Automatic Heating",
+        "Model":"Revere3CHP-80-4T2000-P-2C",
+        "Zone 4 Annual Energy Savings (%)":63.1,
+        "Zone 4 Peak Load (MJ\/day)":6428.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":822.68,
+        "Zone 5 Annual Energy Savings (%)":61.2,
+        "Zone 5 Peak Load (MJ\/day)":6231.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":838.78,
+        "Number Of Tanks":4,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"TSSI2C2000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":1944.3,
+        "Total System Tank Volume (L)":7777.2,
+        "Number of Heat Pumps":3,
+        "Heat Pump Model Number(s)":"CHP-80Y2C",
+        "Total Heat Pump Thermal Capacity (kW)":168.6,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"10 kW",
+        "Total Thermal Capacity (kW)":178.6,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":101.7,
+        "Status":"Pending Assessment",
+        "Application Date":1733961600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Automatic Heating",
+        "Model":"Revere5CHP-80-4T5000-S-2C",
+        "Zone 4 Annual Energy Savings (%)":60.3,
+        "Zone 4 Peak Load (MJ\/day)":13468.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":1854.09,
+        "Zone 5 Annual Energy Savings (%)":0.0,
+        "Zone 5 Peak Load (MJ\/day)":0.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":0.0,
+        "Number Of Tanks":4,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"TSSI2C5000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":4773.0,
+        "Total System Tank Volume (L)":19092.0,
+        "Number of Heat Pumps":5,
+        "Heat Pump Model Number(s)":"CHP-80Y2C",
+        "Total Heat Pump Thermal Capacity (kW)":323.0,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"10 kW",
+        "Total Thermal Capacity (kW)":323.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":56.5,
+        "Status":"Pending Assessment",
+        "Application Date":1730937600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"DUX",
         "Model":"200DHA20",
         "Zone 4 Annual Energy Savings (%)":64.5,
@@ -1188,7 +1518,7 @@
         "Effective To":1847664000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"DUX",
         "Model":"200DHA20P",
         "Zone 4 Annual Energy Savings (%)":64.9,
@@ -1221,7 +1551,7 @@
         "Effective To":1847664000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"DUX",
         "Model":"270DHB36",
         "Zone 4 Annual Energy Savings (%)":69.8,
@@ -1254,7 +1584,7 @@
         "Effective To":1868572800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"DUX",
         "Model":"270DHB36P",
         "Zone 4 Annual Energy Savings (%)":69.8,
@@ -1287,7 +1617,7 @@
         "Effective To":1868572800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"DUX",
         "Model":"300DHA20",
         "Zone 4 Annual Energy Savings (%)":62.2,
@@ -1320,7 +1650,7 @@
         "Effective To":1847664000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"DUX",
         "Model":"300DHA20P",
         "Zone 4 Annual Energy Savings (%)":62.2,
@@ -1353,7 +1683,7 @@
         "Effective To":1847664000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"ECO ALLIANCE",
         "Model":"ECO-155LU",
         "Zone 4 Annual Energy Savings (%)":60.7,
@@ -1386,7 +1716,7 @@
         "Effective To":1699920000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"ECO ALLIANCE",
         "Model":"ECO-170LHPWH",
         "Zone 4 Annual Energy Savings (%)":66.5,
@@ -1419,7 +1749,7 @@
         "Effective To":1682294400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"ECO ALLIANCE",
         "Model":"ECO-215LU",
         "Zone 4 Annual Energy Savings (%)":60.6,
@@ -1452,7 +1782,7 @@
         "Effective To":1699920000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-215F",
         "Zone 4 Annual Energy Savings (%)":68.77,
@@ -1485,7 +1815,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-215FR290C",
         "Zone 4 Annual Energy Savings (%)":69.1,
@@ -1518,7 +1848,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-215FRC",
         "Zone 4 Annual Energy Savings (%)":72.6,
@@ -1551,7 +1881,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-215FREC",
         "Zone 4 Annual Energy Savings (%)":70.5,
@@ -1584,7 +1914,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-215FREC-W",
         "Zone 4 Annual Energy Savings (%)":69.3,
@@ -1617,7 +1947,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-215FRE-W",
         "Zone 4 Annual Energy Savings (%)":75.4,
@@ -1650,7 +1980,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-260FR290C",
         "Zone 4 Annual Energy Savings (%)":66.4,
@@ -1683,7 +2013,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-260FRC",
         "Zone 4 Annual Energy Savings (%)":68.2,
@@ -1716,40 +2046,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
-        "Brand":"Ecogenica",
-        "Model":"EG-260RW-4.8EC",
-        "Zone 4 Annual Energy Savings (%)":66.6,
-        "Zone 4 Peak Load (MJ\/day)":172.0,
-        "Zone 4 HPgas (GJ\/year)":0,
-        "Zone 4 HPelec (GJ\/year)":19.94,
-        "Zone 5 Annual Energy Savings (%)":64.2,
-        "Zone 5 Peak Load (MJ\/day)":149.0,
-        "Zone 5 HPgas (GJ\/year)":0,
-        "Zone 5 HPelec (GJ\/year)":18.5,
-        "Number Of Tanks":1,
-        "Pre-Heat Tank Model Number(s)":null,
-        "Finishing Tank Model Number(s)":"EG-260RW-4.8EC",
-        "Pre-Heat Tank Volume (L)":0.0,
-        "Finishing Tank Volume (L)":258.5,
-        "Total System Tank Volume (L)":258.5,
-        "Number of Heat Pumps":1,
-        "Heat Pump Model Number(s)":"EG-260RW-4.8EC",
-        "Total Heat Pump Thermal Capacity (kW)":3.13,
-        "System Booster Type":"In-Tank electric booster",
-        "Booster Model Number":"\/",
-        "Total Thermal Capacity (kW)":7.93,
-        "System Type":"Integrated",
-        "AS\/NZS 2712 Certificate Expiry":1806364800000,
-        "Refrigerant Type (GWP)":"R-290",
-        "Refrigerant Charge (kg)":0.34,
-        "Status":"Pending Assessment",
-        "Application Date":1726012800000,
-        "Effective From":null,
-        "Effective To":null
-    },
-    {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-290FR290C",
         "Zone 4 Annual Energy Savings (%)":67.5,
@@ -1782,7 +2079,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-290FRC",
         "Zone 4 Annual Energy Savings (%)":73.0,
@@ -1815,7 +2112,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-290FREC",
         "Zone 4 Annual Energy Savings (%)":72.0,
@@ -1848,7 +2145,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-300FREC-W",
         "Zone 4 Annual Energy Savings (%)":70.5,
@@ -1881,7 +2178,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-300FRE-W",
         "Zone 4 Annual Energy Savings (%)":77.8,
@@ -1914,7 +2211,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-330FRC",
         "Zone 4 Annual Energy Savings (%)":67.6,
@@ -1947,7 +2244,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-330FREC",
         "Zone 4 Annual Energy Savings (%)":63.4,
@@ -1980,7 +2277,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-330FREC-WR",
         "Zone 4 Annual Energy Savings (%)":63.5,
@@ -2013,7 +2310,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-330FRE-WR",
         "Zone 4 Annual Energy Savings (%)":72.6,
@@ -2046,7 +2343,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-450FRECW-3.6HP-4.8E",
         "Zone 4 Annual Energy Savings (%)":60.0,
@@ -2073,13 +2370,13 @@
         "AS\/NZS 2712 Certificate Expiry":1806364800000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.46,
-        "Status":"Pending Assessment",
-        "Application Date":1725926400000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Ecogenica",
         "Model":"EG-450FRECW-4.8HP-4.8E",
         "Zone 4 Annual Energy Savings (%)":60.9,
@@ -2106,13 +2403,46 @@
         "AS\/NZS 2712 Certificate Expiry":1806364800000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.58,
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1806364800000
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"ECONOVA",
+        "Model":"ECON-260RVW-4.8EC",
+        "Zone 4 Annual Energy Savings (%)":60.1,
+        "Zone 4 Peak Load (MJ\/day)":244.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":33.81,
+        "Zone 5 Annual Energy Savings (%)":60.0,
+        "Zone 5 Peak Load (MJ\/day)":208.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":28.89,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"ECON-260RVW-48EC",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":258.5,
+        "Total System Tank Volume (L)":258.5,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"ECON-260RVW-4.8EC",
+        "Total Heat Pump Thermal Capacity (kW)":3.0,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":7.8,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1806364800000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.38,
         "Status":"Pending Assessment",
-        "Application Date":1725926400000,
+        "Application Date":1734048000000,
         "Effective From":null,
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"ECONOVA",
         "Model":"ECON-260RW-4.8EC",
         "Zone 4 Annual Energy Savings (%)":66.6,
@@ -2139,13 +2469,46 @@
         "AS\/NZS 2712 Certificate Expiry":1806364800000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.34,
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1806364800000
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"ECONOVA",
+        "Model":"ECON-300RVW-4.8EC",
+        "Zone 4 Annual Energy Savings (%)":60.0,
+        "Zone 4 Peak Load (MJ\/day)":228.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":31.67,
+        "Zone 5 Annual Energy Savings (%)":60.0,
+        "Zone 5 Peak Load (MJ\/day)":191.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":26.48,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"ECON-300RVW-48EC",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":290.2,
+        "Total System Tank Volume (L)":290.2,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"ECON-300RVW-4.8EC",
+        "Total Heat Pump Thermal Capacity (kW)":2.97,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":7.8,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1806364800000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.38,
         "Status":"Pending Assessment",
-        "Application Date":1725926400000,
+        "Application Date":1734048000000,
         "Effective From":null,
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Edson",
         "Model":"EGS-AIO-200\/290-C",
         "Zone 4 Annual Energy Savings (%)":63.9,
@@ -2172,13 +2535,13 @@
         "AS\/NZS 2712 Certificate Expiry":1869696000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.34,
-        "Status":"Pending Assessment",
-        "Application Date":1720742400000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Edson",
         "Model":"EGS-AIO-200\/290-R",
         "Zone 4 Annual Energy Savings (%)":73.4,
@@ -2205,13 +2568,13 @@
         "AS\/NZS 2712 Certificate Expiry":1869696000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.34,
-        "Status":"Pending Assessment",
-        "Application Date":1720742400000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Edson",
         "Model":"EGS-AIO-250\/290-C",
         "Zone 4 Annual Energy Savings (%)":63.5,
@@ -2238,13 +2601,13 @@
         "AS\/NZS 2712 Certificate Expiry":1869696000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.34,
-        "Status":"Pending Assessment",
-        "Application Date":1720742400000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Edson",
         "Model":"EGS-AIO-250\/290-R",
         "Zone 4 Annual Energy Savings (%)":73.5,
@@ -2271,13 +2634,13 @@
         "AS\/NZS 2712 Certificate Expiry":1869696000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.34,
-        "Status":"Pending Assessment",
-        "Application Date":1720742400000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Edson",
         "Model":"EGS-AIO-300\/290-C",
         "Zone 4 Annual Energy Savings (%)":63.0,
@@ -2310,7 +2673,7 @@
         "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Edson",
         "Model":"EGS-AIO-300\/290-R",
         "Zone 4 Annual Energy Savings (%)":67.1,
@@ -2343,7 +2706,7 @@
         "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Efficiency Plus",
         "Model":"EPG-200AC",
         "Zone 4 Annual Energy Savings (%)":64.4,
@@ -2376,7 +2739,7 @@
         "Effective To":1869177600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Efficiency Plus",
         "Model":"EPG-270AC",
         "Zone 4 Annual Energy Savings (%)":66.1,
@@ -2409,7 +2772,7 @@
         "Effective To":1869177600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-220",
         "Zone 4 Annual Energy Savings (%)":76.4,
@@ -2442,7 +2805,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-220-1",
         "Zone 4 Annual Energy Savings (%)":73.1,
@@ -2475,7 +2838,7 @@
         "Effective To":1773964800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-220E",
         "Zone 4 Annual Energy Savings (%)":76.4,
@@ -2508,7 +2871,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-220E-1",
         "Zone 4 Annual Energy Savings (%)":73.1,
@@ -2541,7 +2904,7 @@
         "Effective To":1773964800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-220E-2",
         "Zone 4 Annual Energy Savings (%)":67.2,
@@ -2574,7 +2937,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-270",
         "Zone 4 Annual Energy Savings (%)":71.8,
@@ -2607,7 +2970,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-270-1",
         "Zone 4 Annual Energy Savings (%)":71.1,
@@ -2640,7 +3003,7 @@
         "Effective To":1773964800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-270E",
         "Zone 4 Annual Energy Savings (%)":71.8,
@@ -2673,7 +3036,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-270E-1",
         "Zone 4 Annual Energy Savings (%)":71.1,
@@ -2706,7 +3069,7 @@
         "Effective To":1773964800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-270E-2",
         "Zone 4 Annual Energy Savings (%)":66.7,
@@ -2739,7 +3102,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-270E-2-M2",
         "Zone 4 Annual Energy Savings (%)":66.0,
@@ -2772,7 +3135,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-270E-2-M3",
         "Zone 4 Annual Energy Savings (%)":65.9,
@@ -2805,7 +3168,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-320",
         "Zone 4 Annual Energy Savings (%)":71.2,
@@ -2838,7 +3201,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-320-1",
         "Zone 4 Annual Energy Savings (%)":67.4,
@@ -2871,7 +3234,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-320E",
         "Zone 4 Annual Energy Savings (%)":72.3,
@@ -2904,7 +3267,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-A1-320E-1",
         "Zone 4 Annual Energy Savings (%)":63.5,
@@ -2937,7 +3300,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-200",
         "Zone 4 Annual Energy Savings (%)":77.4,
@@ -2970,7 +3333,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-200-1",
         "Zone 4 Annual Energy Savings (%)":76.0,
@@ -3003,7 +3366,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-200E",
         "Zone 4 Annual Energy Savings (%)":77.4,
@@ -3036,7 +3399,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-200E-1",
         "Zone 4 Annual Energy Savings (%)":76.0,
@@ -3069,7 +3432,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-200E-2",
         "Zone 4 Annual Energy Savings (%)":70.3,
@@ -3102,7 +3465,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-300",
         "Zone 4 Annual Energy Savings (%)":75.1,
@@ -3135,7 +3498,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-300-1",
         "Zone 4 Annual Energy Savings (%)":74.1,
@@ -3168,7 +3531,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-300E",
         "Zone 4 Annual Energy Savings (%)":75.1,
@@ -3201,7 +3564,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-300E-1",
         "Zone 4 Annual Energy Savings (%)":74.1,
@@ -3234,7 +3597,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-RCHPOU\/EE-HWS-RCHP-300E-2",
         "Zone 4 Annual Energy Savings (%)":67.9,
@@ -3267,7 +3630,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"EE-HWS-SSHP-200",
         "Zone 4 Annual Energy Savings (%)":65.5,
@@ -3300,7 +3663,7 @@
         "Effective To":1774051200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR200",
         "Zone 4 Annual Energy Savings (%)":79.2,
@@ -3333,7 +3696,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR200-1",
         "Zone 4 Annual Energy Savings (%)":75.4,
@@ -3366,7 +3729,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR200E",
         "Zone 4 Annual Energy Savings (%)":79.2,
@@ -3399,7 +3762,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR200E-1",
         "Zone 4 Annual Energy Savings (%)":69.9,
@@ -3432,7 +3795,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR300",
         "Zone 4 Annual Energy Savings (%)":77.0,
@@ -3465,7 +3828,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR300-1",
         "Zone 4 Annual Energy Savings (%)":73.2,
@@ -3498,7 +3861,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR300E",
         "Zone 4 Annual Energy Savings (%)":77.0,
@@ -3531,7 +3894,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR300E-1",
         "Zone 4 Annual Energy Savings (%)":68.3,
@@ -3564,7 +3927,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR300E-1-M2",
         "Zone 4 Annual Energy Savings (%)":67.5,
@@ -3597,7 +3960,7 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Emerald Energy",
         "Model":"HPR300E-1-M3",
         "Zone 4 Annual Energy Savings (%)":67.6,
@@ -3630,7 +3993,40 @@
         "Effective To":1805673600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Emerald Energy",
+        "Model":"HPRX300E-1",
+        "Zone 4 Annual Energy Savings (%)":66.1,
+        "Zone 4 Peak Load (MJ\/day)":335.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":39.39,
+        "Zone 5 Annual Energy Savings (%)":66.2,
+        "Zone 5 Peak Load (MJ\/day)":280.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":32.79,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"HPRX300E-1",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":290.4,
+        "Total System Tank Volume (L)":290.4,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HPRX300E-1",
+        "Total Heat Pump Thermal Capacity (kW)":4.0,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":8.2,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1805673600000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.47,
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1805673600000
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"ENEFT",
         "Model":"EL220AIO-C",
         "Zone 4 Annual Energy Savings (%)":66.4,
@@ -3663,7 +4059,7 @@
         "Effective To":1836691200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"ENEFT",
         "Model":"EL320AIO-C",
         "Zone 4 Annual Energy Savings (%)":65.0,
@@ -3696,7 +4092,7 @@
         "Effective To":1836691200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"200EH1-14",
         "Zone 4 Annual Energy Savings (%)":65.6,
@@ -3729,7 +4125,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"200EH1-14X2",
         "Zone 4 Annual Energy Savings (%)":65.6,
@@ -3762,7 +4158,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"200EH1-14X3",
         "Zone 4 Annual Energy Savings (%)":65.7,
@@ -3795,7 +4191,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"200EH1-14X4",
         "Zone 4 Annual Energy Savings (%)":65.6,
@@ -3828,7 +4224,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"200EH1-14X5",
         "Zone 4 Annual Energy Savings (%)":0.0,
@@ -3861,7 +4257,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"250EH1-15",
         "Zone 4 Annual Energy Savings (%)":67.4,
@@ -3894,7 +4290,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"250EH1-15X2",
         "Zone 4 Annual Energy Savings (%)":67.4,
@@ -3927,7 +4323,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"250EH1-15X3",
         "Zone 4 Annual Energy Savings (%)":67.4,
@@ -3960,7 +4356,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"250EH1-15X4",
         "Zone 4 Annual Energy Savings (%)":67.4,
@@ -3993,7 +4389,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Enviroheat",
         "Model":"250EH1-15X5",
         "Zone 4 Annual Energy Savings (%)":0.0,
@@ -4026,7 +4422,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"ENVIROSUN",
         "Model":"200ES2C-15",
         "Zone 4 Annual Energy Savings (%)":68.4,
@@ -4059,7 +4455,7 @@
         "Effective To":1846195200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"ENVIROSUN",
         "Model":"250ES2C-15",
         "Zone 4 Annual Energy Savings (%)":70.5,
@@ -4092,17 +4488,17 @@
         "Effective To":1846195200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"EVOHEAT",
         "Model":"EVO150-1",
-        "Zone 4 Annual Energy Savings (%)":64.4,
-        "Zone 4 Peak Load (MJ\/day)":56.0,
+        "Zone 4 Annual Energy Savings (%)":62.6,
+        "Zone 4 Peak Load (MJ\/day)":43.0,
         "Zone 4 HPgas (GJ\/year)":0,
-        "Zone 4 HPelec (GJ\/year)":6.91,
-        "Zone 5 Annual Energy Savings (%)":61.0,
-        "Zone 5 Peak Load (MJ\/day)":51.0,
+        "Zone 4 HPelec (GJ\/year)":5.58,
+        "Zone 5 Annual Energy Savings (%)":0.0,
+        "Zone 5 Peak Load (MJ\/day)":0.0,
         "Zone 5 HPgas (GJ\/year)":0,
-        "Zone 5 HPelec (GJ\/year)":6.91,
+        "Zone 5 HPelec (GJ\/year)":0.0,
         "Number Of Tanks":1,
         "Pre-Heat Tank Model Number(s)":null,
         "Finishing Tank Model Number(s)":"EVO150-1",
@@ -4125,17 +4521,17 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"EVOHEAT",
         "Model":"EVO270-1",
-        "Zone 4 Annual Energy Savings (%)":69.2,
-        "Zone 4 Peak Load (MJ\/day)":120.0,
+        "Zone 4 Annual Energy Savings (%)":67.8,
+        "Zone 4 Peak Load (MJ\/day)":112.0,
         "Zone 4 HPgas (GJ\/year)":0,
-        "Zone 4 HPelec (GJ\/year)":12.82,
-        "Zone 5 Annual Energy Savings (%)":66.5,
-        "Zone 5 Peak Load (MJ\/day)":103.0,
+        "Zone 4 HPelec (GJ\/year)":12.51,
+        "Zone 5 Annual Energy Savings (%)":64.9,
+        "Zone 5 Peak Load (MJ\/day)":90.0,
         "Zone 5 HPgas (GJ\/year)":0,
-        "Zone 5 HPelec (GJ\/year)":11.98,
+        "Zone 5 HPelec (GJ\/year)":10.96,
         "Number Of Tanks":1,
         "Pre-Heat Tank Model Number(s)":null,
         "Finishing Tank Model Number(s)":"EVO270-1",
@@ -4144,10 +4540,10 @@
         "Total System Tank Volume (L)":268.0,
         "Number of Heat Pumps":1,
         "Heat Pump Model Number(s)":"EVO270-1",
-        "Total Heat Pump Thermal Capacity (kW)":4.85,
+        "Total Heat Pump Thermal Capacity (kW)":4.9,
         "System Booster Type":"In-Tank electric booster",
         "Booster Model Number":"\/",
-        "Total Thermal Capacity (kW)":6.35,
+        "Total Thermal Capacity (kW)":6.4,
         "System Type":"Integrated",
         "AS\/NZS 2712 Certificate Expiry":1852243200000,
         "Refrigerant Type (GWP)":"R-134A",
@@ -4158,7 +4554,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"EVOHEAT",
         "Model":"EVO270-E",
         "Zone 4 Annual Energy Savings (%)":71.5,
@@ -4191,17 +4587,17 @@
         "Effective To":1852243200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"EVOHEAT",
         "Model":"EVO315-C",
-        "Zone 4 Annual Energy Savings (%)":69.0,
-        "Zone 4 Peak Load (MJ\/day)":181.0,
+        "Zone 4 Annual Energy Savings (%)":68.8,
+        "Zone 4 Peak Load (MJ\/day)":160.0,
         "Zone 4 HPgas (GJ\/year)":0,
-        "Zone 4 HPelec (GJ\/year)":19.45,
-        "Zone 5 Annual Energy Savings (%)":65.0,
-        "Zone 5 Peak Load (MJ\/day)":134.0,
+        "Zone 4 HPelec (GJ\/year)":17.31,
+        "Zone 5 Annual Energy Savings (%)":65.1,
+        "Zone 5 Peak Load (MJ\/day)":120.0,
         "Zone 5 HPgas (GJ\/year)":0,
-        "Zone 5 HPelec (GJ\/year)":16.29,
+        "Zone 5 HPelec (GJ\/year)":14.51,
         "Number Of Tanks":1,
         "Pre-Heat Tank Model Number(s)":null,
         "Finishing Tank Model Number(s)":"EVO315-C",
@@ -4224,7 +4620,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"FORSSMAN",
         "Model":"EHPSV265-CE",
         "Zone 4 Annual Energy Savings (%)":64.3,
@@ -4257,7 +4653,7 @@
         "Effective To":1870473600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"FORSSMAN",
         "Model":"EHPSV315-CE",
         "Zone 4 Annual Energy Savings (%)":62.4,
@@ -4290,7 +4686,7 @@
         "Effective To":1870473600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"GREE",
         "Model":"GRS-2.3Pd\/TD200ANpB-K",
         "Zone 4 Annual Energy Savings (%)":63.3,
@@ -4317,13 +4713,13 @@
         "AS\/NZS 2712 Certificate Expiry":1869264000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.33,
-        "Status":"Pending Assessment",
-        "Application Date":1723075200000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869264000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"GREE",
         "Model":"GRS-2.3Pd\/TD270ANpB-K",
         "Zone 4 Annual Energy Savings (%)":62.0,
@@ -4350,13 +4746,13 @@
         "AS\/NZS 2712 Certificate Expiry":1869264000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.33,
-        "Status":"Pending Assessment",
-        "Application Date":1723075200000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869264000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Hydrotherm",
         "Model":"Dynamic\/X8",
         "Zone 4 Annual Energy Savings (%)":72.0,
@@ -4383,13 +4779,13 @@
         "AS\/NZS 2712 Certificate Expiry":1731283200000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.35,
-        "Status":"Approved",
+        "Status":"Legacy",
         "Application Date":null,
         "Effective From":1544400000000,
         "Effective To":1731283200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"iHeat",
         "Model":"PASHW008-180LD-NM",
         "Zone 4 Annual Energy Savings (%)":67.5,
@@ -4422,7 +4818,7 @@
         "Effective To":1812326400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"iHeat",
         "Model":"PASHW015-270LD-FL02",
         "Zone 4 Annual Energy Savings (%)":68.8,
@@ -4455,7 +4851,7 @@
         "Effective To":1812326400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"170HPM2",
         "Zone 4 Annual Energy Savings (%)":64.0,
@@ -4488,7 +4884,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"170HPM3",
         "Zone 4 Annual Energy Savings (%)":64.3,
@@ -4521,7 +4917,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"170HPM4",
         "Zone 4 Annual Energy Savings (%)":64.1,
@@ -4554,7 +4950,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM10-C",
         "Zone 4 Annual Energy Savings (%)":75.7,
@@ -4587,7 +4983,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM2",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -4620,7 +5016,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM2-C",
         "Zone 4 Annual Energy Savings (%)":75.7,
@@ -4653,7 +5049,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM3",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -4686,7 +5082,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM3-C",
         "Zone 4 Annual Energy Savings (%)":75.7,
@@ -4719,7 +5115,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM4",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -4752,7 +5148,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM4-C",
         "Zone 4 Annual Energy Savings (%)":75.7,
@@ -4785,7 +5181,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM6-C",
         "Zone 4 Annual Energy Savings (%)":75.7,
@@ -4818,7 +5214,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"200HPM8-C",
         "Zone 4 Annual Energy Savings (%)":75.7,
@@ -4851,7 +5247,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM10-C",
         "Zone 4 Annual Energy Savings (%)":71.5,
@@ -4884,7 +5280,7 @@
         "Effective To":1773792000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM2",
         "Zone 4 Annual Energy Savings (%)":70.0,
@@ -4917,7 +5313,7 @@
         "Effective To":1741132800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM2-C",
         "Zone 4 Annual Energy Savings (%)":71.5,
@@ -4950,7 +5346,7 @@
         "Effective To":1773792000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM3",
         "Zone 4 Annual Energy Savings (%)":70.0,
@@ -4983,7 +5379,7 @@
         "Effective To":1741132800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM3-C",
         "Zone 4 Annual Energy Savings (%)":71.5,
@@ -5016,7 +5412,7 @@
         "Effective To":1773792000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM4",
         "Zone 4 Annual Energy Savings (%)":70.0,
@@ -5049,7 +5445,7 @@
         "Effective To":1741132800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM4-C",
         "Zone 4 Annual Energy Savings (%)":71.5,
@@ -5082,7 +5478,7 @@
         "Effective To":1773792000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM6-C",
         "Zone 4 Annual Energy Savings (%)":71.5,
@@ -5115,7 +5511,7 @@
         "Effective To":1773792000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"280HPM8-C",
         "Zone 4 Annual Energy Savings (%)":71.5,
@@ -5148,7 +5544,7 @@
         "Effective To":1773792000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM10-C",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -5181,7 +5577,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM2",
         "Zone 4 Annual Energy Savings (%)":73.4,
@@ -5214,7 +5610,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM2-C",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -5247,7 +5643,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM3",
         "Zone 4 Annual Energy Savings (%)":73.4,
@@ -5280,7 +5676,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM3-C",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -5313,7 +5709,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM4",
         "Zone 4 Annual Energy Savings (%)":73.3,
@@ -5346,7 +5742,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM4-C",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -5379,7 +5775,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM6-C",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -5412,7 +5808,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"300HPM8-C",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -5445,7 +5841,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"MHW-F26WN3\/MT-200R26E20",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -5478,7 +5874,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"MHW-F26WN3\/MT-300R26E20",
         "Zone 4 Annual Energy Savings (%)":73.4,
@@ -5511,7 +5907,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"MHW-F26WN3-C\/MT-200R26E20",
         "Zone 4 Annual Energy Savings (%)":75.7,
@@ -5544,7 +5940,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"MHW-F26WN3-C\/MT-300R26E20",
         "Zone 4 Annual Energy Savings (%)":75.5,
@@ -5577,7 +5973,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"MHW-F26WN3-D\/MT-200R26E20",
         "Zone 4 Annual Energy Savings (%)":70.1,
@@ -5610,7 +6006,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"MHW-F26WN3-D\/MT-300R26E20",
         "Zone 4 Annual Energy Savings (%)":65.4,
@@ -5643,7 +6039,40 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Midea",
+        "Model":"MHW-V36WD2N7-C\/MT-300R36E42-C",
+        "Zone 4 Annual Energy Savings (%)":65.4,
+        "Zone 4 Peak Load (MJ\/day)":342.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":41.08,
+        "Zone 5 Annual Energy Savings (%)":66.0,
+        "Zone 5 Peak Load (MJ\/day)":284.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":33.48,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"MT-300R36E42-C",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":300.0,
+        "Total System Tank Volume (L)":300.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"MHW-V36WD2N7-C",
+        "Total Heat Pump Thermal Capacity (kW)":3.97,
+        "System Booster Type":"In-Tank Electric Booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":8.17,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1741478400000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.47,
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1741478400000
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"RSJ-15\/190RDN3-C",
         "Zone 4 Annual Energy Savings (%)":64.0,
@@ -5676,7 +6105,7 @@
         "Effective To":1741478400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"RSJ-23\/300RDN3-B",
         "Zone 4 Annual Energy Savings (%)":70.0,
@@ -5709,7 +6138,7 @@
         "Effective To":1741132800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"RSJ-23\/300RDN3-C",
         "Zone 4 Annual Energy Savings (%)":71.5,
@@ -5742,7 +6171,7 @@
         "Effective To":1773792000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Midea",
         "Model":"RSJ-23\/300RDN7-L2-C",
         "Zone 4 Annual Energy Savings (%)":69.2,
@@ -5775,7 +6204,40 @@
         "Effective To":1773792000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Midea",
+        "Model":"RSJ-23\/300RDN7-L2-D",
+        "Zone 4 Annual Energy Savings (%)":63.0,
+        "Zone 4 Peak Load (MJ\/day)":284.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":36.43,
+        "Zone 5 Annual Energy Savings (%)":62.1,
+        "Zone 5 Peak Load (MJ\/day)":263.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":34.58,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RSJ-23\/300RDN7-L2-D",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":290.0,
+        "Total System Tank Volume (L)":290.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"RSJ-23\/300RDN7-L2-D",
+        "Total Heat Pump Thermal Capacity (kW)":3.4,
+        "System Booster Type":"In-Tank Electric Booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":7.9,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1773792000000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.42,
+        "Status":"Pending Assessment",
+        "Application Date":1729728000000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Neopower",
         "Model":"NA32-260A",
         "Zone 4 Annual Energy Savings (%)":72.1,
@@ -5808,7 +6270,7 @@
         "Effective To":1838246400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Optitech",
         "Model":"OPT-HP-S-160LT",
         "Zone 4 Annual Energy Savings (%)":67.0,
@@ -5841,7 +6303,7 @@
         "Effective To":1806105600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Optitech",
         "Model":"OPT-HP-S-265LT",
         "Zone 4 Annual Energy Savings (%)":69.1,
@@ -5874,7 +6336,7 @@
         "Effective To":1806105600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Power Bay",
         "Model":"PBG2-200CO-HYBRID",
         "Zone 4 Annual Energy Savings (%)":64.0,
@@ -5901,13 +6363,13 @@
         "AS\/NZS 2712 Certificate Expiry":1869696000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.34,
-        "Status":"Pending Assessment",
-        "Application Date":1726099200000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Power Bay",
         "Model":"PBG2-250CO-HYBRID",
         "Zone 4 Annual Energy Savings (%)":63.5,
@@ -5934,23 +6396,23 @@
         "AS\/NZS 2712 Certificate Expiry":1869696000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.34,
-        "Status":"Pending Assessment",
-        "Application Date":1726099200000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Power Bay",
         "Model":"PBG2-300CO-HYBRID",
-        "Zone 4 Annual Energy Savings (%)":61.2,
-        "Zone 4 Peak Load (MJ\/day)":209.0,
+        "Zone 4 Annual Energy Savings (%)":63.2,
+        "Zone 4 Peak Load (MJ\/day)":195.0,
         "Zone 4 HPgas (GJ\/year)":0,
-        "Zone 4 HPelec (GJ\/year)":28.13,
-        "Zone 5 Annual Energy Savings (%)":60.0,
-        "Zone 5 Peak Load (MJ\/day)":158.0,
+        "Zone 4 HPelec (GJ\/year)":24.92,
+        "Zone 5 Annual Energy Savings (%)":60.9,
+        "Zone 5 Peak Load (MJ\/day)":178.0,
         "Zone 5 HPgas (GJ\/year)":0,
-        "Zone 5 HPelec (GJ\/year)":21.94,
+        "Zone 5 HPelec (GJ\/year)":24.11,
         "Number Of Tanks":1,
         "Pre-Heat Tank Model Number(s)":null,
         "Finishing Tank Model Number(s)":"PBG2-300CO-HYBRID",
@@ -5959,21 +6421,54 @@
         "Total System Tank Volume (L)":303.0,
         "Number of Heat Pumps":1,
         "Heat Pump Model Number(s)":"PBG2-300CO-HYBRID",
-        "Total Heat Pump Thermal Capacity (kW)":3.99,
+        "Total Heat Pump Thermal Capacity (kW)":3.72,
         "System Booster Type":"In-Tank electric booster",
         "Booster Model Number":"\/",
-        "Total Thermal Capacity (kW)":6.09,
+        "Total Thermal Capacity (kW)":5.82,
+        "System Type":"Integrated",
+        "AS\/NZS 2712 Certificate Expiry":1869696000000,
+        "Refrigerant Type (GWP)":"R-290",
+        "Refrigerant Charge (kg)":0.34,
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869696000000
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"PowerBay",
+        "Model":"AIO250HP-C",
+        "Zone 4 Annual Energy Savings (%)":63.5,
+        "Zone 4 Peak Load (MJ\/day)":207.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":26.18,
+        "Zone 5 Annual Energy Savings (%)":61.4,
+        "Zone 5 Peak Load (MJ\/day)":193.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":25.86,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"AIO250HP-C",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":253.0,
+        "Total System Tank Volume (L)":253.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"AIO250HP-C",
+        "Total Heat Pump Thermal Capacity (kW)":4.0,
+        "System Booster Type":"In-Tank electric booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":6.1,
         "System Type":"Integrated",
         "AS\/NZS 2712 Certificate Expiry":1869696000000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.34,
         "Status":"Pending Assessment",
-        "Application Date":1726099200000,
+        "Application Date":1733184000000,
         "Effective From":null,
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Quantum",
         "Model":"150-08AC6-290",
         "Zone 4 Annual Energy Savings (%)":63.9,
@@ -6006,7 +6501,7 @@
         "Effective To":1799798400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Quantum",
         "Model":"200-08AC6-290",
         "Zone 4 Annual Energy Savings (%)":63.7,
@@ -6039,7 +6534,7 @@
         "Effective To":1799798400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Quantum",
         "Model":"270-08AC6-290",
         "Zone 4 Annual Energy Savings (%)":66.8,
@@ -6072,7 +6567,7 @@
         "Effective To":1799798400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Quantum",
         "Model":"340-08AC6-290",
         "Zone 4 Annual Energy Savings (%)":69.3,
@@ -6105,7 +6600,7 @@
         "Effective To":1799798400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Quantum",
         "Model":"340-17ACW-134",
         "Zone 4 Annual Energy Savings (%)":61.4,
@@ -6138,7 +6633,7 @@
         "Effective To":1799798400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Quantum",
         "Model":"340-17ASW-134",
         "Zone 4 Annual Energy Savings (%)":64.7,
@@ -6171,7 +6666,535 @@
         "Effective To":1799798400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP2-1000DX0-1",
+        "Zone 4 Annual Energy Savings (%)":78.0,
+        "Zone 4 Peak Load (MJ\/day)":655.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":50.08,
+        "Zone 5 Annual Energy Savings (%)":75.6,
+        "Zone 5 Peak Load (MJ\/day)":559.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":47.4,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DXO-1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":1032.0,
+        "Total System Tank Volume (L)":1032.0,
+        "Number of Heat Pumps":2,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":9.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":9.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":1.38,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP2-1000DX2-1",
+        "Zone 4 Annual Energy Savings (%)":77.5,
+        "Zone 4 Peak Load (MJ\/day)":652.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":50.88,
+        "Zone 5 Annual Energy Savings (%)":74.8,
+        "Zone 5 Peak Load (MJ\/day)":558.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":48.69,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DX2-1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":992.0,
+        "Total System Tank Volume (L)":992.0,
+        "Number of Heat Pumps":2,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":9.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":9.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":1.38,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP2-750DX0-1",
+        "Zone 4 Annual Energy Savings (%)":77.7,
+        "Zone 4 Peak Load (MJ\/day)":573.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":44.31,
+        "Zone 5 Annual Energy Savings (%)":75.7,
+        "Zone 5 Peak Load (MJ\/day)":511.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":43.0,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DXO-750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":839.0,
+        "Total System Tank Volume (L)":839.0,
+        "Number of Heat Pumps":2,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":9.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":9.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":1.38,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP2-750DX2-1",
+        "Zone 4 Annual Energy Savings (%)":77.4,
+        "Zone 4 Peak Load (MJ\/day)":585.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":45.91,
+        "Zone 5 Annual Energy Savings (%)":75.3,
+        "Zone 5 Peak Load (MJ\/day)":521.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":44.72,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DX2-750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":805.0,
+        "Total System Tank Volume (L)":805.0,
+        "Number of Heat Pumps":2,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":9.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":9.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":1.38,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP3-1000DX0-1",
+        "Zone 4 Annual Energy Savings (%)":77.2,
+        "Zone 4 Peak Load (MJ\/day)":818.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":64.75,
+        "Zone 5 Annual Energy Savings (%)":75.1,
+        "Zone 5 Peak Load (MJ\/day)":724.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":62.64,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DXO-1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":1032.0,
+        "Total System Tank Volume (L)":1032.0,
+        "Number of Heat Pumps":3,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":13.5,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":13.5,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":2.07,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP3-1000DX2-1",
+        "Zone 4 Annual Energy Savings (%)":76.7,
+        "Zone 4 Peak Load (MJ\/day)":833.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":67.33,
+        "Zone 5 Annual Energy Savings (%)":74.5,
+        "Zone 5 Peak Load (MJ\/day)":747.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":66.16,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DX2-1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":992.0,
+        "Total System Tank Volume (L)":992.0,
+        "Number of Heat Pumps":3,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":13.5,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":13.5,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":2.07,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP3-750DX0-1",
+        "Zone 4 Annual Energy Savings (%)":77.3,
+        "Zone 4 Peak Load (MJ\/day)":739.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":58.21,
+        "Zone 5 Annual Energy Savings (%)":75.3,
+        "Zone 5 Peak Load (MJ\/day)":647.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":55.5,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DXO-750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":839.0,
+        "Total System Tank Volume (L)":839.0,
+        "Number of Heat Pumps":3,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":13.5,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":13.5,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":2.07,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP3-750DX2-1",
+        "Zone 4 Annual Energy Savings (%)":76.9,
+        "Zone 4 Peak Load (MJ\/day)":761.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":60.95,
+        "Zone 5 Annual Energy Savings (%)":74.8,
+        "Zone 5 Peak Load (MJ\/day)":682.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":59.53,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DX2-750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":805.0,
+        "Total System Tank Volume (L)":805.0,
+        "Number of Heat Pumps":3,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":13.5,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":13.5,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":2.07,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP4-1000DX0-1",
+        "Zone 4 Annual Energy Savings (%)":76.8,
+        "Zone 4 Peak Load (MJ\/day)":978.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":78.82,
+        "Zone 5 Annual Energy Savings (%)":74.6,
+        "Zone 5 Peak Load (MJ\/day)":864.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":75.97,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DXO-1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":1032.0,
+        "Total System Tank Volume (L)":1032.0,
+        "Number of Heat Pumps":4,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":18.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":18.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":2.76,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP4-1000DX2-1",
+        "Zone 4 Annual Energy Savings (%)":76.1,
+        "Zone 4 Peak Load (MJ\/day)":992.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":82.15,
+        "Zone 5 Annual Energy Savings (%)":74.0,
+        "Zone 5 Peak Load (MJ\/day)":903.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":81.34,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DX2-1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":992.0,
+        "Total System Tank Volume (L)":992.0,
+        "Number of Heat Pumps":4,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":18.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":18.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":2.76,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP4-750DX0-1",
+        "Zone 4 Annual Energy Savings (%)":77.1,
+        "Zone 4 Peak Load (MJ\/day)":912.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":72.4,
+        "Zone 5 Annual Energy Savings (%)":75.0,
+        "Zone 5 Peak Load (MJ\/day)":781.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":67.76,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DXO-750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":839.0,
+        "Total System Tank Volume (L)":839.0,
+        "Number of Heat Pumps":4,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":18.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":18.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":2.76,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP4-750DX2-1",
+        "Zone 4 Annual Energy Savings (%)":76.5,
+        "Zone 4 Peak Load (MJ\/day)":908.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":74.13,
+        "Zone 5 Annual Energy Savings (%)":74.4,
+        "Zone 5 Peak Load (MJ\/day)":811.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":71.93,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DX2-750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":805.0,
+        "Total System Tank Volume (L)":805.0,
+        "Number of Heat Pumps":4,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":18.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":18.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":2.76,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP6-1000DX0-1",
+        "Zone 4 Annual Energy Savings (%)":76.5,
+        "Zone 4 Peak Load (MJ\/day)":1328.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":108.22,
+        "Zone 5 Annual Energy Savings (%)":74.4,
+        "Zone 5 Peak Load (MJ\/day)":1160.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":103.11,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DXO-1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":1032.0,
+        "Total System Tank Volume (L)":1032.0,
+        "Number of Heat Pumps":6,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":27.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":27.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":4.14,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP6-1000DX2-1",
+        "Zone 4 Annual Energy Savings (%)":75.7,
+        "Zone 4 Peak Load (MJ\/day)":1346.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":113.36,
+        "Zone 5 Annual Energy Savings (%)":73.3,
+        "Zone 5 Peak Load (MJ\/day)":1169.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":108.11,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DX2-1000",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":992.0,
+        "Total System Tank Volume (L)":992.0,
+        "Number of Heat Pumps":6,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":27.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":27.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":4.14,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP6-750DX0-1",
+        "Zone 4 Annual Energy Savings (%)":76.9,
+        "Zone 4 Peak Load (MJ\/day)":1224.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":98.15,
+        "Zone 5 Annual Energy Savings (%)":74.8,
+        "Zone 5 Peak Load (MJ\/day)":1054.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":92.25,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DXO-750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":839.0,
+        "Total System Tank Volume (L)":839.0,
+        "Number of Heat Pumps":6,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":27.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":27.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":4.14,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim",
+        "Model":"REHP-CO2-HP6-750DX2-1",
+        "Zone 4 Annual Energy Savings (%)":76.3,
+        "Zone 4 Peak Load (MJ\/day)":1239.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":101.89,
+        "Zone 5 Annual Energy Savings (%)":74.1,
+        "Zone 5 Peak Load (MJ\/day)":1078.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":97.02,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":null,
+        "Finishing Tank Model Number(s)":"RE-DX2-750",
+        "Pre-Heat Tank Volume (L)":0.0,
+        "Finishing Tank Volume (L)":805.0,
+        "Total System Tank Volume (L)":805.0,
+        "Number of Heat Pumps":6,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":27.0,
+        "System Booster Type":"No Booster",
+        "Booster Model Number":"\/",
+        "Total Thermal Capacity (kW)":27.0,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":null,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":4.14,
+        "Status":"Pending Assessment",
+        "Application Date":1733356800000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Reclaim Energy",
         "Model":"REHP-CO2-250GL-V2",
         "Zone 4 Annual Energy Savings (%)":78.0,
@@ -6204,7 +7227,40 @@
         "Effective To":1773705600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-CO2-250SSEW-V2",
+        "Zone 4 Annual Energy Savings (%)":77.7,
+        "Zone 4 Peak Load (MJ\/day)":240.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":18.53,
+        "Zone 5 Annual Energy Savings (%)":76.4,
+        "Zone 5 Peak Load (MJ\/day)":220.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":18.01,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"EWA-250HPT",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":269.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":269.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":4.5,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.5,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.69,
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1857859200000
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Reclaim Energy",
         "Model":"REHP-CO2-250SST-V2",
         "Zone 4 Annual Energy Savings (%)":78.2,
@@ -6237,7 +7293,7 @@
         "Effective To":1857859200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Reclaim Energy",
         "Model":"REHP-CO2-315GL-V2",
         "Zone 4 Annual Energy Savings (%)":77.8,
@@ -6270,7 +7326,40 @@
         "Effective To":1773705600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-CO2-315SSEW-V2",
+        "Zone 4 Annual Energy Savings (%)":78.2,
+        "Zone 4 Peak Load (MJ\/day)":245.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":18.5,
+        "Zone 5 Annual Energy Savings (%)":76.8,
+        "Zone 5 Peak Load (MJ\/day)":220.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":17.67,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"EWA-315HPT",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":332.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":332.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"EHPE-4550P-A",
+        "Total Heat Pump Thermal Capacity (kW)":4.5,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.5,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.69,
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1857859200000
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Reclaim Energy",
         "Model":"REHP-CO2-315SSQ-V2",
         "Zone 4 Annual Energy Savings (%)":78.2,
@@ -6303,7 +7392,7 @@
         "Effective To":1857859200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Reclaim Energy",
         "Model":"REHP-CO2-315SST-V2",
         "Zone 4 Annual Energy Savings (%)":78.2,
@@ -6336,7 +7425,7 @@
         "Effective To":1857859200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Reclaim Energy",
         "Model":"REHP-CO2-400GL-V2",
         "Zone 4 Annual Energy Savings (%)":78.2,
@@ -6369,7 +7458,7 @@
         "Effective To":1773705600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Reclaim Energy",
         "Model":"REHP-CO2-400SST-V2",
         "Zone 4 Annual Energy Savings (%)":78.6,
@@ -6402,7 +7491,304 @@
         "Effective To":1857859200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-250GL",
+        "Zone 4 Annual Energy Savings (%)":76.7,
+        "Zone 4 Peak Load (MJ\/day)":230.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":18.61,
+        "Zone 5 Annual Energy Savings (%)":74.7,
+        "Zone 5 Peak Load (MJ\/day)":200.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":17.53,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"RE250AGLH",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":259.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":259.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-250SSEW",
+        "Zone 4 Annual Energy Savings (%)":76.4,
+        "Zone 4 Peak Load (MJ\/day)":220.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":17.98,
+        "Zone 5 Annual Energy Savings (%)":74.7,
+        "Zone 5 Peak Load (MJ\/day)":200.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":17.54,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"EWA-250HPT",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":269.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":269.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-250SST",
+        "Zone 4 Annual Energy Savings (%)":77.1,
+        "Zone 4 Peak Load (MJ\/day)":225.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":17.91,
+        "Zone 5 Annual Energy Savings (%)":75.1,
+        "Zone 5 Peak Load (MJ\/day)":190.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":16.44,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"APS250TH",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":280.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":280.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-315GL",
+        "Zone 4 Annual Energy Savings (%)":76.6,
+        "Zone 4 Peak Load (MJ\/day)":230.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":18.7,
+        "Zone 5 Annual Energy Savings (%)":74.9,
+        "Zone 5 Peak Load (MJ\/day)":210.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":18.29,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"RE315AGLH",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":323.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":323.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-315SSEW",
+        "Zone 4 Annual Energy Savings (%)":76.9,
+        "Zone 4 Peak Load (MJ\/day)":225.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":18.0,
+        "Zone 5 Annual Energy Savings (%)":75.2,
+        "Zone 5 Peak Load (MJ\/day)":200.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":17.19,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"EWA-315HPT",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":332.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":332.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-315SSQ",
+        "Zone 4 Annual Energy Savings (%)":76.9,
+        "Zone 4 Peak Load (MJ\/day)":225.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":18.01,
+        "Zone 5 Annual Energy Savings (%)":75.2,
+        "Zone 5 Peak Load (MJ\/day)":200.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":17.19,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"APS315SH",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":333.4,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":333.4,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-315SST",
+        "Zone 4 Annual Energy Savings (%)":76.9,
+        "Zone 4 Peak Load (MJ\/day)":225.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":18.02,
+        "Zone 5 Annual Energy Savings (%)":75.2,
+        "Zone 5 Peak Load (MJ\/day)":200.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":17.22,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"APS315TH",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":330.9,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":330.9,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-400GL",
+        "Zone 4 Annual Energy Savings (%)":77.1,
+        "Zone 4 Peak Load (MJ\/day)":263.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":20.93,
+        "Zone 5 Annual Energy Savings (%)":75.4,
+        "Zone 5 Peak Load (MJ\/day)":232.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":19.76,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"RE400AGLH",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":420.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":420.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
+        "Brand":"Reclaim Energy",
+        "Model":"REHP-KY-CO2-400SST",
+        "Zone 4 Annual Energy Savings (%)":77.5,
+        "Zone 4 Peak Load (MJ\/day)":260.0,
+        "Zone 4 HPgas (GJ\/year)":0,
+        "Zone 4 HPelec (GJ\/year)":20.27,
+        "Zone 5 Annual Energy Savings (%)":76.1,
+        "Zone 5 Peak Load (MJ\/day)":232.0,
+        "Zone 5 HPgas (GJ\/year)":0,
+        "Zone 5 HPelec (GJ\/year)":19.26,
+        "Number Of Tanks":1,
+        "Pre-Heat Tank Model Number(s)":"APS400TH",
+        "Finishing Tank Model Number(s)":null,
+        "Pre-Heat Tank Volume (L)":420.0,
+        "Finishing Tank Volume (L)":0.0,
+        "Total System Tank Volume (L)":420.0,
+        "Number of Heat Pumps":1,
+        "Heat Pump Model Number(s)":"HE-UM60AR",
+        "Total Heat Pump Thermal Capacity (kW)":4.21,
+        "System Booster Type":"4. No booster",
+        "Booster Model Number":null,
+        "Total Thermal Capacity (kW)":4.21,
+        "System Type":"Non-integrated",
+        "AS\/NZS 2712 Certificate Expiry":1857859200000,
+        "Refrigerant Type (GWP)":"R-744",
+        "Refrigerant Charge (kg)":0.9,
+        "Status":"Pending Assessment",
+        "Application Date":1731369600000,
+        "Effective From":null,
+        "Effective To":null
+    },
+    {
+        "Product Category No.":"44A",
         "Brand":"Rheem",
         "Model":"551180",
         "Zone 4 Annual Energy Savings (%)":68.0,
@@ -6435,7 +7821,7 @@
         "Effective To":1824595200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rheem",
         "Model":"551270",
         "Zone 4 Annual Energy Savings (%)":69.9,
@@ -6468,7 +7854,7 @@
         "Effective To":1914278400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPA300VM",
         "Zone 4 Annual Energy Savings (%)":68.2,
@@ -6501,7 +7887,7 @@
         "Effective To":1797120000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPA340VM",
         "Zone 4 Annual Energy Savings (%)":68.1,
@@ -6534,7 +7920,7 @@
         "Effective To":1797120000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPG215VM",
         "Zone 4 Annual Energy Savings (%)":68.3,
@@ -6567,7 +7953,7 @@
         "Effective To":1869782400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPG265VM",
         "Zone 4 Annual Energy Savings (%)":70.3,
@@ -6600,7 +7986,7 @@
         "Effective To":1869782400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPG265VMT",
         "Zone 4 Annual Energy Savings (%)":70.3,
@@ -6627,13 +8013,13 @@
         "AS\/NZS 2712 Certificate Expiry":1869782400000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.4,
-        "Status":"Pending Assessment",
-        "Application Date":1726012800000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1869782400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPG280VM",
         "Zone 4 Annual Energy Savings (%)":69.9,
@@ -6666,7 +8052,7 @@
         "Effective To":1869782400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPG300VM",
         "Zone 4 Annual Energy Savings (%)":69.6,
@@ -6699,7 +8085,7 @@
         "Effective To":1869782400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPS215VM",
         "Zone 4 Annual Energy Savings (%)":66.0,
@@ -6732,7 +8118,7 @@
         "Effective To":1824595200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPS265VM",
         "Zone 4 Annual Energy Savings (%)":70.4,
@@ -6765,7 +8151,7 @@
         "Effective To":1824595200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPT180VM",
         "Zone 4 Annual Energy Savings (%)":66.0,
@@ -6798,7 +8184,7 @@
         "Effective To":1816819200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Rinnai",
         "Model":"EHPT250VM",
         "Zone 4 Annual Energy Savings (%)":66.4,
@@ -6831,7 +8217,7 @@
         "Effective To":1816819200000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Lifestyle Australia",
         "Model":"SLA-R18-190D\/N4A4C\/70-2",
         "Zone 4 Annual Energy Savings (%)":67.3,
@@ -6864,7 +8250,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Lifestyle Australia",
         "Model":"SLA-R18-190D\/N4A4C\/70-5",
         "Zone 4 Annual Energy Savings (%)":68.6,
@@ -6897,7 +8283,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Lifestyle Australia",
         "Model":"SLA-R18-190D-N3A4",
         "Zone 4 Annual Energy Savings (%)":64.8,
@@ -6930,7 +8316,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Lifestyle Australia",
         "Model":"SLA-R20-250\/N3A4C",
         "Zone 4 Annual Energy Savings (%)":67.2,
@@ -6963,7 +8349,7 @@
         "Effective To":1824508800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Lifestyle Australia",
         "Model":"SLA-R25-250D\/N4D4C\/70-2",
         "Zone 4 Annual Energy Savings (%)":63.2,
@@ -6996,7 +8382,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Lifestyle Australia",
         "Model":"SLA-R25-250D\/N4D4C\/70-5",
         "Zone 4 Annual Energy Savings (%)":64.0,
@@ -7029,7 +8415,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Lifestyle Australia",
         "Model":"SLA-R25-300D\/N3D4C",
         "Zone 4 Annual Energy Savings (%)":66.3,
@@ -7062,7 +8448,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Lifestyle Australia",
         "Model":"SLA-R25-300D-N3D4",
         "Zone 4 Annual Energy Savings (%)":68.1,
@@ -7095,7 +8481,7 @@
         "Effective To":1806364800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Power Tech",
         "Model":"SWH210A-CE",
         "Zone 4 Annual Energy Savings (%)":63.2,
@@ -7128,7 +8514,7 @@
         "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Power Tech",
         "Model":"SWH270A-CE",
         "Zone 4 Annual Energy Savings (%)":61.1,
@@ -7161,73 +8547,7 @@
         "Effective To":1869696000000
     },
     {
-        "Product Category No.":"44A-C",
-        "Brand":"Smart Power Tech",
-        "Model":"WH200C-1\/WH200T-C",
-        "Zone 4 Annual Energy Savings (%)":74.9,
-        "Zone 4 Peak Load (MJ\/day)":120.0,
-        "Zone 4 HPgas (GJ\/year)":0,
-        "Zone 4 HPelec (GJ\/year)":10.46,
-        "Zone 5 Annual Energy Savings (%)":72.7,
-        "Zone 5 Peak Load (MJ\/day)":107.0,
-        "Zone 5 HPgas (GJ\/year)":0,
-        "Zone 5 HPelec (GJ\/year)":10.12,
-        "Number Of Tanks":1,
-        "Pre-Heat Tank Model Number(s)":null,
-        "Finishing Tank Model Number(s)":"WH200T-C",
-        "Pre-Heat Tank Volume (L)":0.0,
-        "Finishing Tank Volume (L)":195.7,
-        "Total System Tank Volume (L)":195.7,
-        "Number of Heat Pumps":1,
-        "Heat Pump Model Number(s)":"WH200C-1",
-        "Total Heat Pump Thermal Capacity (kW)":3.7,
-        "System Booster Type":"No Booster",
-        "Booster Model Number":"\/",
-        "Total Thermal Capacity (kW)":3.7,
-        "System Type":"Integrated",
-        "AS\/NZS 2712 Certificate Expiry":1856649600000,
-        "Refrigerant Type (GWP)":"R-134A",
-        "Refrigerant Charge (kg)":0.95,
-        "Status":"Pending Assessment",
-        "Application Date":1706054400000,
-        "Effective From":null,
-        "Effective To":null
-    },
-    {
-        "Product Category No.":"44A-C",
-        "Brand":"Smart Power Tech",
-        "Model":"WH200C-1E\/WH200T-CE",
-        "Zone 4 Annual Energy Savings (%)":72.8,
-        "Zone 4 Peak Load (MJ\/day)":141.0,
-        "Zone 4 HPgas (GJ\/year)":0,
-        "Zone 4 HPelec (GJ\/year)":13.32,
-        "Zone 5 Annual Energy Savings (%)":70.6,
-        "Zone 5 Peak Load (MJ\/day)":123.0,
-        "Zone 5 HPgas (GJ\/year)":0,
-        "Zone 5 HPelec (GJ\/year)":12.54,
-        "Number Of Tanks":1,
-        "Pre-Heat Tank Model Number(s)":null,
-        "Finishing Tank Model Number(s)":"WH200T-CE",
-        "Pre-Heat Tank Volume (L)":0.0,
-        "Finishing Tank Volume (L)":195.7,
-        "Total System Tank Volume (L)":195.7,
-        "Number of Heat Pumps":1,
-        "Heat Pump Model Number(s)":"WH200C-1E",
-        "Total Heat Pump Thermal Capacity (kW)":3.7,
-        "System Booster Type":"In-Tank electric booster",
-        "Booster Model Number":"\/",
-        "Total Thermal Capacity (kW)":4.7,
-        "System Type":"Integrated",
-        "AS\/NZS 2712 Certificate Expiry":1856649600000,
-        "Refrigerant Type (GWP)":"R-134A",
-        "Refrigerant Charge (kg)":0.95,
-        "Status":"Pending Assessment",
-        "Application Date":1706054400000,
-        "Effective From":null,
-        "Effective To":null
-    },
-    {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Power Tech",
         "Model":"WH265A-C",
         "Zone 4 Annual Energy Savings (%)":62.3,
@@ -7254,13 +8574,13 @@
         "AS\/NZS 2712 Certificate Expiry":1870473600000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.39,
-        "Status":"Pending Assessment",
-        "Application Date":1716336000000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1870473600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Power Tech",
         "Model":"WH265A-CE",
         "Zone 4 Annual Energy Savings (%)":64.3,
@@ -7287,13 +8607,13 @@
         "AS\/NZS 2712 Certificate Expiry":1870473600000,
         "Refrigerant Type (GWP)":"R-290",
         "Refrigerant Charge (kg)":0.39,
-        "Status":"Pending Assessment",
-        "Application Date":1716336000000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Approved",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1870473600000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Power Tech",
         "Model":"WH315A-C",
         "Zone 4 Annual Energy Savings (%)":65.8,
@@ -7326,7 +8646,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Smart Power Tech",
         "Model":"WH315A-CE",
         "Zone 4 Annual Energy Savings (%)":62.4,
@@ -7359,7 +8679,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"SolarBuild",
         "Model":"NA32-260A",
         "Zone 4 Annual Energy Savings (%)":72.1,
@@ -7392,7 +8712,7 @@
         "Effective To":1838246400000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Stiebel Eltron",
         "Model":"WWK 302",
         "Zone 4 Annual Energy Savings (%)":62.6,
@@ -7425,7 +8745,7 @@
         "Effective To":1764288000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Stiebel Eltron",
         "Model":"WWK 302 H",
         "Zone 4 Annual Energy Savings (%)":60.6,
@@ -7458,7 +8778,7 @@
         "Effective To":1764288000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERATA",
         "Model":"KZd35-R16SWE\/S-ST15",
         "Zone 4 Annual Energy Savings (%)":63.7,
@@ -7491,7 +8811,7 @@
         "Effective To":1806192000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERATA",
         "Model":"KZd40-R20SWE\/S-ST25",
         "Zone 4 Annual Energy Savings (%)":69.9,
@@ -7524,7 +8844,7 @@
         "Effective To":1806192000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERATA",
         "Model":"ST15-X2",
         "Zone 4 Annual Energy Savings (%)":63.7,
@@ -7557,7 +8877,7 @@
         "Effective To":1806192000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERATA",
         "Model":"ST15-X3",
         "Zone 4 Annual Energy Savings (%)":63.7,
@@ -7590,7 +8910,7 @@
         "Effective To":1806192000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERATA",
         "Model":"ST15-X4",
         "Zone 4 Annual Energy Savings (%)":63.7,
@@ -7623,7 +8943,7 @@
         "Effective To":1806192000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERATA",
         "Model":"ST25-X2",
         "Zone 4 Annual Energy Savings (%)":69.9,
@@ -7656,7 +8976,7 @@
         "Effective To":1806192000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERATA",
         "Model":"ST25-X3",
         "Zone 4 Annual Energy Savings (%)":69.8,
@@ -7689,7 +9009,7 @@
         "Effective To":1806192000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERATA",
         "Model":"ST25-X4",
         "Zone 4 Annual Energy Savings (%)":69.9,
@@ -7722,7 +9042,7 @@
         "Effective To":1806192000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERMANN",
         "Model":"270THMB36",
         "Zone 4 Annual Energy Savings (%)":69.8,
@@ -7755,7 +9075,7 @@
         "Effective To":1868572800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"THERMANN",
         "Model":"270THMB36P",
         "Zone 4 Annual Energy Savings (%)":69.8,
@@ -7788,7 +9108,7 @@
         "Effective To":1868572800000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Thermann X",
         "Model":"THP45x315",
         "Zone 4 Annual Energy Savings (%)":78.0,
@@ -7821,7 +9141,7 @@
         "Effective To":null
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Thermann X",
         "Model":"THP45x400",
         "Zone 4 Annual Energy Savings (%)":78.2,
@@ -7848,13 +9168,13 @@
         "AS\/NZS 2712 Certificate Expiry":1884470400000,
         "Refrigerant Type (GWP)":"R-744",
         "Refrigerant Charge (kg)":0.69,
-        "Status":"Pending Assessment",
-        "Application Date":1713139200000,
-        "Effective From":null,
-        "Effective To":null
+        "Status":"Legacy",
+        "Application Date":null,
+        "Effective From":1544400000000,
+        "Effective To":1726704000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Wulfe",
         "Model":"W200PW-1",
         "Zone 4 Annual Energy Savings (%)":65.6,
@@ -7887,7 +9207,7 @@
         "Effective To":1711584000000
     },
     {
-        "Product Category No.":"44A-C",
+        "Product Category No.":"44A",
         "Brand":"Wulfe",
         "Model":"W250PW-1",
         "Zone 4 Annual Energy Savings (%)":67.4,
