@@ -1,0 +1,23 @@
+const express = require('express');
+const puppeteer = require('puppeteer');
+
+const app = express();
+const port = 3000;
+
+app.get('/scrape', async (req, res) => {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+  await page.goto('https://www.demandmanager.com.au/certificate-prices/', {
+    waitUntil: 'networkidle0',
+  });
+  await page.waitForSelector('#stc_price');
+  
+  const stcPrice = await page.$eval('#stc_price', el => el.textContent.trim());
+  await browser.close();
+  
+  res.json({ stcPrice });
+});
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}`);
+});

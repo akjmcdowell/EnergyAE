@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Source Heat Pump Models - CER V54</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <style>
+        /* Table container styling */
+        .table-container {
+            width: 100%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* Ensures borders do not double */
+            margin-top: 20px;
+        }
+        td {
+            border: 1px solid #ccc; /* Adds border to cells */
+            padding: 10px;
+            text-align: center;
+            background-color: white; /* Background color for header */
+        }
+        th {
+            border: 1px solid #ccc; /* Adds border to cells */
+            padding: 10px;
+            text-align: center;
+            background-color: #f4f4f4; /* Background color for header */
+            cursor: pointer; /* Change cursor to pointer for clickable headers */
+        }
+        .arrow {
+            margin-left: 5px;
+            font-size: 0.8em; /* Smaller font size for arrows */
+        }
+        .ascending::after {
+            content: ' ▲'; /* Up arrow for ascending sort */
+        }
+        .descending::after {
+            content: ' ▼'; /* Down arrow for descending sort */
+        }
+        /* Responsive styles */
+        @media (max-width: 767px) {
+            .table-container {
+                overflow-x: auto; /* Allow horizontal scroll */
+                white-space: nowrap; /* Prevent text wrapping */
+            }
+            th, td {
+                padding: 8px; /* Adjust padding for smaller screens */
+                font-size: 14px; /* Adjust font size if necessary */
+            }
+        }
+    </style>
+</head>
+<body>
+<p>Use this calculator to review and compare the number of STCs eligible for approved products on the <a href="https://cer.gov.au/schemes/renewable-energy-target/small-scale-renewable-energy-scheme/small-scale-renewable-energy-systems/solar-water-heaters/register-solar-water-heaters" target="_blank">CER Register of solar water heaters</a>.</p>
+
+<label for="year"><b>Postcode Lookup:</b></label>
+<input type="text" id="postcode" placeholder="Enter postcode" />
+<button id="lookup-button">Lookup</button>
+<div id="result"></div>
+
+<br>
+
+<p>Select the year of installation to reflect the correct number of certificates for a given installation:</p>
+
+<div class="filter-container">
+    <label for="year"><b>Year of Installation:</b></label>
+    <select id="year" name="year">
+        <option value="Register-Value">Register Value</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="2028">2028</option>
+        <option value="2029">2029</option>
+        <option value="2030">2030</option>
+    </select>
+</div>
+<p><i>Note: STC values published on the CER Register are for a 10-year Deeming Period. The Deeming Period reduces each year, <a href="https://cer.gov.au/schemes/renewable-energy-target/small-scale-renewable-energy-scheme/small-scale-technology-certificates/calculate-small-scale-technology-certificate-entitlements#:~:text=The%20deeming%20period%20is%20an,can%20create%20for%20your%20system." target="_blank">learn more here</a></i>.</p>
+
+<br>
+
+<p>Filter by one or more brands or models:</p>
+<p><i>Hint: hold down Ctrl key to select multiple brands and/or models.</i></p>
+
+ <div class="filter-container"> 
+    <label for="brand-filter">Filter by Brand(s):</label>
+    <select id="brand-filter" multiple size="10">
+      <option value="all-brands" selected>All Brands</option>
+      <!-- Options will be populated dynamically -->
+    </select>
+  
+    <label for="model-filter">Filter by Model(s):</label>
+    <select id="model-filter" multiple size="10">
+      <option value="all-models" selected>All Models</option>
+      <!-- Options will be populated dynamically -->
+    </select>
+</div>
+  
+<style>
+    .filter-container {
+      display: flex;
+      align-items: center;
+      gap: 10px; /* Adjust as needed */
+    }
+  
+    .filter-container label,
+    .filter-container select {
+      display: inline-block;
+    }
+</style>
+
+<br>
+<p>Click on any header to sort STC values by alphabetical or numerical order.</p>
+<button id="export-button">Export Data</button>
+
+<div class="table-container">
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0, this)">Brand<span class="arrow"></span></th>
+                <th onclick="sortTable(1, this)">Model<span class="arrow"></span></th>
+                <th onclick="sortTable(2, this)">STCs <span class="arrow"></span></th>
+                <!--th onclick="sortTable(3, this)">Zone 2<span class="arrow"></span></th>
+                <th onclick="sortTable(4, this)">Zone 3<span class="arrow"></span></th>
+                <th onclick="sortTable(5, this)">Zone 4<span class="arrow"></span></th>
+                <th onclick="sortTable(6, this)">Zone 5<span class="arrow"></span></th-->
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be populated here -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+    let data_CER = [];
+    let data_postcodes = [];
+    let currentSortColumn = -1; // Keep track of the currently sorted column
+    let currentSortDirection = 'ascending'; // Keep track of the sorting direction
+    let calculatedValues = [];
+    
+    main();
+
+    async function main() {
+        try {
+            data_CER = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/CER/CER.json');
+            data_postcodes = await fetchData('https://raw.githubusercontent.com/akjmcdowell/EnergyAE/refs/heads/main/CER/CER_POSTCODES.json');
+
+            if (!Array.isArray(data_CER)) throw new Error('data_CER is not an array');
+
+            populateTable(data_CER); // Populate the table initially
+            populateBrandFilter(data_CER); // Populate the brand filter
+            populateModelFilter(data_CER); // Populate the model filter
+        } catch (error) {
+            console.error('Error during initialization:', error);
+        }
+    }
+
+    async function fetchData(URL) {
+        const response = await fetch(URL);
+        if (!response.ok) throw new Error('Network response was not ok ' + response.statusText);
+        return await response.json();
+    }
+
+        // Function to populate the table with data
+       function populateTable(data) {
+        const tableBody = document.getElementById('data-table').getElementsByTagName('tbody')[0];
+        tableBody.innerHTML = ''; // Clear existing data
+
+        let year = document.getElementById("year").value;
+        year = (year === 'Register-Value') ? 2021 : year;
+        const DeemingPeriod = 2031 - year;
+                
+        data.forEach(item => {
+            const row = document.createElement('tr');         
+             
+            // Create individual cells (td) and assign values for brand/model
+            let brandCell = document.createElement('td');
+            brandCell.textContent = item.Brand;
+            row.appendChild(brandCell);
+
+            let modelCell = document.createElement('td');
+            modelCell.textContent = item.Model;
+            row.appendChild(modelCell);
+
+            // Add STCs to table
+            /*for (let i = 1; i <= 5; i++) {
+                let STC_element = document.createElement('td');
+                let STC = item[`Zone ${zone}`];
+                STC_year = Math.floor(STC*DeemingPeriod/10);
+                STC_element.textContent = !isNaN(STC_year) ? STC_year : 'N/A';
+                row.appendChild(STC_element);
+            }
+            */
+
+            let STC_element = document.createElement('td');
+            let STC = item[`Zone ${zone}`];
+            STC_year = Math.floor(STC*DeemingPeriod/10);
+            STC_element.textContent = !isNaN(STC_year) ? STC_year : 'N/A';
+            row.appendChild(STC_element);
+
+            //console.log(postcodeInfo.Zone)
+
+            // Append the row to the table body
+            tableBody.appendChild(row);
+        });
+    }
+
+    function populateBrandFilter(data) {
+        const brandFilter = document.getElementById('brand-filter');
+        brandFilter.innerHTML = ''; // Clear existing brands
+
+        // Add the default "All Brands" option
+        const allBrandsOption = document.createElement('option');
+        allBrandsOption.value = 'all-brands';
+        allBrandsOption.textContent = 'All Brands';
+        brandFilter.appendChild(allBrandsOption);
+
+        // Extract unique brands and sort them case-insensitively
+        const uniqueBrands = [...new Set(data.map(item => item.Brand))]
+            .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+
+        // Populate the brand filter dropdown
+        uniqueBrands.forEach(brand => {
+            const option = document.createElement('option');
+            option.value = brand;
+            option.textContent = brand;
+            brandFilter.appendChild(option);
+        });
+    }
+
+    function populateModelFilter(data, selectedBrands = []) {
+        const modelFilter = document.getElementById('model-filter');
+        modelFilter.innerHTML = ''; // Clear existing models
+
+        // Add the default "All Models" option
+        const allModelsOption = document.createElement('option');
+        allModelsOption.value = 'all-models';
+        allModelsOption.textContent = 'All Models';
+        modelFilter.appendChild(allModelsOption);
+
+        const filteredModels = selectedBrands.includes('all-brands') 
+            ? data.map(item => item.Model) // Show all models if "All Brands" is selected
+            : data.filter(item => selectedBrands.includes(item.Brand)).map(item => item.Model);
+
+        const uniqueModels = [...new Set(filteredModels)].sort();
+
+        uniqueModels.forEach(model => {
+            const option = document.createElement('option');
+            option.value = model;
+            option.textContent = model;
+            modelFilter.appendChild(option);
+        });
+    }
+
+
+    function updateTableForSelectedBrandsModels() {
+        const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
+        const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
+
+        let filteredData;
+
+        if (selectedBrands.includes('all-brands') && selectedModels.includes('all-models')) {
+            // Show all data if both "All Brands" and "All Models" are selected
+            filteredData = data_CER;
+        } else if (selectedBrands.includes('all-brands')) {
+            // If "All Brands" is selected, show all models for selected models
+            filteredData = data_CER.filter(item => selectedModels.includes(item.Model));
+        } else if (selectedModels.includes('all-models')) {
+            // If "All Models" is selected, show all models for selected brands
+            filteredData = data_CER.filter(item => selectedBrands.includes(item.Brand));
+        } else {
+            // Filter by both selected brands and models
+            filteredData = data_CER.filter(item =>
+                selectedBrands.includes(item.Brand) && selectedModels.includes(item.Model)
+            );
+        }
+
+        populateTable(filteredData); // Update the table with filtered data
+    }
+
+    // Example of populating filters and updating table on selection change
+    document.getElementById('brand-filter').addEventListener('change', function() {
+        const selectedBrands = Array.from(this.selectedOptions).map(option => option.value);
+        populateModelFilter(data_CER, selectedBrands);
+
+        // Automatically select "All Models" when a brand is selected
+        const modelFilter = document.getElementById('model-filter');
+        modelFilter.value = 'all-models'; // Set to "All Models"
+
+        updateTableForSelectedBrandsModels();
+    });
+
+    document.getElementById('model-filter').addEventListener('change', updateTableForSelectedBrandsModels);
+
+    function sortTable(columnIndex, th) {
+        const table = document.getElementById('data-table');
+        const tbody = table.querySelector('tbody');
+        const rows = Array.from(tbody.rows);
+        
+        // Determine sort direction
+        let sortDirection = 'ascending'; // Default direction
+        if (currentSortColumn === columnIndex) {
+            // Toggle sort direction if clicking the same column
+            sortDirection = currentSortDirection === 'ascending' ? 'descending' : 'ascending';
+        } else {
+            // Sort descending on the first click
+            sortDirection = currentSortColumn === -1 ? 'descending' : 'ascending';
+        }
+
+        // Sort rows based on selected column using localeCompare for string comparison
+        rows.sort((rowA, rowB) => {
+            const cellA = rowA.cells[columnIndex].innerText;
+            const cellB = rowB.cells[columnIndex].innerText;
+
+            // If both are numbers, compare them as numbers, otherwise use localeCompare for strings
+            const a = isNaN(cellA) ? cellA : parseFloat(cellA);
+            const b = isNaN(cellB) ? cellB : parseFloat(cellB);
+
+            if (typeof a === 'string' && typeof b === 'string') {
+                return sortDirection === 'ascending' ? a.localeCompare(b, undefined, { sensitivity: 'base' }) 
+                                                    : b.localeCompare(a, undefined, { sensitivity: 'base' });
+            } else {
+                return sortDirection === 'ascending' ? (a > b ? 1 : -1) : (a < b ? 1 : -1);
+            }
+        });
+
+        // Clear existing rows and append sorted rows
+        while (tbody.firstChild) {
+            tbody.removeChild(tbody.firstChild);
+        }
+        rows.forEach(row => tbody.appendChild(row));
+
+        // Update sorting indicators
+        resetSortingIndicators();
+        th.classList.toggle(sortDirection);
+        currentSortColumn = columnIndex;
+        currentSortDirection = sortDirection;
+    }
+
+
+
+    function resetSortingIndicators() {
+        const thElements = document.querySelectorAll('#data-table th');
+        thElements.forEach(th => {
+            th.classList.remove('ascending', 'descending'); // Remove sorting classes
+        });
+    }
+
+    function lookupPostcode() {
+        const postcodeInput = document.getElementById('postcode').value.trim();
+        const resultDiv = document.getElementById('result');
+
+        // Find the postcode in the data
+        const postcodeInfo = data_postcodes.find(item => item.Postcode === postcodeInput);
+        zone = postcodeInfo.Zone
+
+        if (postcodeInfo) {
+            // Display the results
+            resultDiv.innerHTML = `<strong>CER Zone:</strong> ${zone} <br>`;
+        } else {
+            // Display error message
+            resultDiv.innerHTML = `<strong>No data found for postcode:</strong> ${postcodeInput}`;
+        }
+
+            const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
+            const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
+
+                // Default to "all-brands" and "all-models" if none selected
+            if (selectedBrands.length === 0) {
+                selectedBrands.push('all-brands');
+            }
+            if (selectedModels.length === 0) {
+        selectedModels.push('all-models');
+
+    }
+
+               // Filter the data based on current selections
+    const filteredData = (selectedBrands.includes('all-brands') && selectedModels.includes('all-models'))
+        ? data_CER
+        : data_CER.filter(item =>
+            (selectedBrands.includes('all-brands') || selectedBrands.includes(item.Brand)) &&
+            (selectedModels.includes('all-models') || selectedModels.includes(item.Model))
+        );
+
+    populateTable(filteredData); // Update table with filtered data
+
+    }
+
+    // Add event listener for button click
+    document.getElementById('lookup-button').addEventListener('click', lookupPostcode);
+
+    // Add event listener for Enter key press
+    document.getElementById('postcode').addEventListener('keydown', function(event) {
+        if (event.key === 'Enter') {
+            lookupPostcode();
+        }
+    });
+
+    document.getElementById('year').addEventListener('change', function() {
+        const selectedBrands = Array.from(document.getElementById('brand-filter').selectedOptions).map(option => option.value);
+        const selectedModels = Array.from(document.getElementById('model-filter').selectedOptions).map(option => option.value);
+
+        // Default to "all-brands" and "all-models" if none selected
+        if (selectedBrands.length === 0) {
+            selectedBrands.push('all-brands');
+        }
+        if (selectedModels.length === 0) {
+            selectedModels.push('all-models');
+        }
+
+        // Filter data based on selections
+        const filteredData = (selectedBrands.includes('all-brands') && selectedModels.includes('all-models'))
+            ? data_CER
+            : data_CER.filter(item =>
+                (selectedBrands.includes('all-brands') || selectedBrands.includes(item.Brand)) &&
+                (selectedModels.includes('all-models') || selectedModels.includes(item.Model))
+            );
+
+        populateTable(filteredData); // Update table with filtered data
+    });
+
+    function exportExcel() {
+        // Get the table element
+        const table = document.getElementById('data-table');
+
+        // Create a new workbook
+        const wb = XLSX.utils.book_new();
+        
+        // Convert the HTML table to a worksheet
+        const ws = XLSX.utils.table_to_sheet(table);
+        
+        // Append the worksheet to the workbook
+        XLSX.utils.book_append_sheet(wb, ws, 'Sheet1');
+
+        // Export the workbook as an Excel file
+        // Create a date string in the format YYYY-MM-DD
+        const today = new Date();
+        const dateString = today.toISOString().split('T')[0]; // YYYY-MM-DD format
+        XLSX.writeFile(wb, `STC_data_${dateString}.xlsx`);
+    }
+
+    document.getElementById('export-button').addEventListener('click', function () {
+        exportExcel();
+    });
+
+</script>
+
+</body>
+</html>
