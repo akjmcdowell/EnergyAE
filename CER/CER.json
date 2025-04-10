@@ -144,7 +144,7 @@
         "Zone 5":34.0
     },
     {
-        "Brand":"Apricus Australia",
+        "Brand":"Apricus Australia ",
         "Model":"APHP-R290-260",
         "Zone 1":25,
         "Zone 2":25,
@@ -180,7 +180,7 @@
         "Zone 5":32.0
     },
     {
-        "Brand":"Aquatech",
+        "Brand":"AQUATECH",
         "Model":"DYNAMIC\/X8",
         "Zone 1":26,
         "Zone 2":25,
@@ -216,7 +216,7 @@
         "Zone 5":null
     },
     {
-        "Brand":"Aquatech",
+        "Brand":"AQUATECH",
         "Model":"RAPID\/X6",
         "Zone 1":25,
         "Zone 2":23,
@@ -306,7 +306,7 @@
         "Zone 5":null
     },
     {
-        "Brand":"Aquatech",
+        "Brand":"Aquatech ",
         "Model":"Micra-SS\/X2\/C",
         "Zone 1":13,
         "Zone 2":8,
@@ -639,7 +639,7 @@
         "Zone 5":29.0
     },
     {
-        "Brand":"DUX",
+        "Brand":"Dux",
         "Model":"270DHB36",
         "Zone 1":26,
         "Zone 2":24,
@@ -648,7 +648,7 @@
         "Zone 5":32.0
     },
     {
-        "Brand":"DUX",
+        "Brand":"Dux",
         "Model":"270DHB36P",
         "Zone 1":26,
         "Zone 2":24,
@@ -729,7 +729,7 @@
         "Zone 5":32.0
     },
     {
-        "Brand":"DUX",
+        "Brand":"Dux",
         "Model":"D2FHG3000C",
         "Zone 1":22,
         "Zone 2":21,
@@ -738,7 +738,7 @@
         "Zone 5":27.0
     },
     {
-        "Brand":"DUX",
+        "Brand":"Dux",
         "Model":"D2FHG4FP0C",
         "Zone 1":22,
         "Zone 2":21,
@@ -747,7 +747,7 @@
         "Zone 5":27.0
     },
     {
-        "Brand":"DUX",
+        "Brand":"Dux",
         "Model":"D2FHG4HW0C",
         "Zone 1":22,
         "Zone 2":21,
@@ -1233,7 +1233,7 @@
         "Zone 5":28.0
     },
     {
-        "Brand":"Econova",
+        "Brand":"ECONOVA",
         "Model":"ECON-260FREC-W",
         "Zone 1":25,
         "Zone 2":22,
@@ -1242,7 +1242,7 @@
         "Zone 5":30.0
     },
     {
-        "Brand":"Econova",
+        "Brand":"ECONOVA",
         "Model":"ECON-260FRE-W",
         "Zone 1":27,
         "Zone 2":25,
@@ -1251,7 +1251,7 @@
         "Zone 5":33.0
     },
     {
-        "Brand":"Econova",
+        "Brand":"ECONOVA",
         "Model":"ECON-260RW",
         "Zone 1":26,
         "Zone 2":26,
@@ -1260,7 +1260,7 @@
         "Zone 5":33.0
     },
     {
-        "Brand":"Econova",
+        "Brand":"ECONOVA",
         "Model":"ECON-260RW-4.8E",
         "Zone 1":26,
         "Zone 2":26,
@@ -1269,7 +1269,7 @@
         "Zone 5":33.0
     },
     {
-        "Brand":"Econova",
+        "Brand":"ECONOVA",
         "Model":"ECON-260RW-4.8EC",
         "Zone 1":24,
         "Zone 2":24,
@@ -1296,7 +1296,7 @@
         "Zone 5":31.0
     },
     {
-        "Brand":"Econova",
+        "Brand":"ECONOVA",
         "Model":"ECON-300RW",
         "Zone 1":26,
         "Zone 2":25,
@@ -1305,7 +1305,7 @@
         "Zone 5":33.0
     },
     {
-        "Brand":"Econova",
+        "Brand":"ECONOVA",
         "Model":"ECON-300SW-2.0E",
         "Zone 1":26,
         "Zone 2":25,
@@ -1935,7 +1935,7 @@
         "Zone 5":30.0
     },
     {
-        "Brand":"ENVIROHEAT",
+        "Brand":"Enviroheat",
         "Model":"EH200M9",
         "Zone 1":25,
         "Zone 2":24,
@@ -1944,7 +1944,7 @@
         "Zone 5":31.0
     },
     {
-        "Brand":"ENVIROHEAT",
+        "Brand":"Enviroheat",
         "Model":"EH330M9",
         "Zone 1":24,
         "Zone 2":22,
@@ -1953,7 +1953,7 @@
         "Zone 5":29.0
     },
     {
-        "Brand":"Envirosun",
+        "Brand":"ENVIROSUN",
         "Model":"200ES1-15",
         "Zone 1":24,
         "Zone 2":23,
@@ -1971,7 +1971,7 @@
         "Zone 5":30.0
     },
     {
-        "Brand":"Envirosun",
+        "Brand":"ENVIROSUN",
         "Model":"250ES1-15",
         "Zone 1":25,
         "Zone 2":23,
@@ -2043,7 +2043,7 @@
         "Zone 5":34.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EVOHEAT",
         "Model":"EVO150-1",
         "Zone 1":25,
         "Zone 2":25,
@@ -2052,7 +2052,7 @@
         "Zone 5":31.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EVOHEAT",
         "Model":"EVO150-C",
         "Zone 1":25,
         "Zone 2":25,
@@ -2061,7 +2061,7 @@
         "Zone 5":31.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EVOHEAT",
         "Model":"EVO315-C",
         "Zone 1":25,
         "Zone 2":24,
@@ -2070,7 +2070,7 @@
         "Zone 5":31.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EvoHeat",
         "Model":"Evo270",
         "Zone 1":22,
         "Zone 2":20,
@@ -2079,7 +2079,7 @@
         "Zone 5":26.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EvoHeat",
         "Model":"EVO270-1",
         "Zone 1":25,
         "Zone 2":25,
@@ -2088,7 +2088,7 @@
         "Zone 5":32.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EvoHeat",
         "Model":"EVO270-A",
         "Zone 1":25,
         "Zone 2":25,
@@ -2097,7 +2097,7 @@
         "Zone 5":32.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EvoHeat",
         "Model":"EVO270-B",
         "Zone 1":25,
         "Zone 2":25,
@@ -2106,7 +2106,7 @@
         "Zone 5":32.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EVOHEAT",
         "Model":"EVO270-E",
         "Zone 1":26,
         "Zone 2":26,
@@ -2115,7 +2115,7 @@
         "Zone 5":34.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"EVOHEAT",
         "Model":"EVO270-E",
         "Zone 1":26,
         "Zone 2":25,
@@ -2124,7 +2124,7 @@
         "Zone 5":33.0
     },
     {
-        "Brand":"Evo Heat",
+        "Brand":"Evoheat",
         "Model":"PASHW015-270LD",
         "Zone 1":23,
         "Zone 2":22,
@@ -2493,7 +2493,7 @@
         "Zone 5":14.0
     },
     {
-        "Brand":"Hydrotherm",
+        "Brand":"HYDROTHERM",
         "Model":"RAPID\/X6",
         "Zone 1":25,
         "Zone 2":23,
@@ -2565,7 +2565,7 @@
         "Zone 5":null
     },
     {
-        "Brand":"Hydrotherm",
+        "Brand":"Hydrotherm ",
         "Model":"RS-3.6FA\/300L(C)",
         "Zone 1":22,
         "Zone 2":20,
@@ -2574,7 +2574,7 @@
         "Zone 5":14.0
     },
     {
-        "Brand":"Hydrotherm",
+        "Brand":"Hydrotherm ",
         "Model":"RS-3.6FA\/300L(OP)",
         "Zone 1":22,
         "Zone 2":20,
@@ -6165,7 +6165,7 @@
         "Zone 5":30.0
     },
     {
-        "Brand":"Stiebel Eltron",
+        "Brand":"Stiebel Eltron ",
         "Model":"WWK300A",
         "Zone 1":24,
         "Zone 2":24,
@@ -6174,7 +6174,7 @@
         "Zone 5":29.0
     },
     {
-        "Brand":"Stiebel Eltron",
+        "Brand":"Stiebel Eltron ",
         "Model":"WWK300AH",
         "Zone 1":24,
         "Zone 2":24,
@@ -6183,7 +6183,7 @@
         "Zone 5":29.0
     },
     {
-        "Brand":"Stiebel Eltron",
+        "Brand":"Stiebel Eltron ",
         "Model":"WWK300AP",
         "Zone 1":24,
         "Zone 2":24,
@@ -6570,7 +6570,7 @@
         "Zone 5":34.0
     },
     {
-        "Brand":"Thermann X",
+        "Brand":"THERMANN X",
         "Model":"THP45x315",
         "Zone 1":26,
         "Zone 2":27,
@@ -6849,7 +6849,7 @@
         "Zone 5":30.0
     },
     {
-        "Brand":"WULFE",
+        "Brand":"Wulfe",
         "Model":"WPW200M9",
         "Zone 1":25,
         "Zone 2":24,
@@ -6858,7 +6858,7 @@
         "Zone 5":31.0
     },
     {
-        "Brand":"WULFE",
+        "Brand":"Wulfe",
         "Model":"WPW330M9",
         "Zone 1":24,
         "Zone 2":22,
